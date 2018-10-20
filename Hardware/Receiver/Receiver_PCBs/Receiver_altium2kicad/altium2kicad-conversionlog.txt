@@ -1,0 +1,96 @@
+Archive:  db/5164.zip
+  inflating: db/5164/ZooidReceiverPCB.PcbDoc  
+  inflating: db/5164/._ZooidReceiverPCB.PcbDoc  
+  inflating: db/5164/ZRMicrocontroller.SchDoc  
+  inflating: db/5164/._ZRMicrocontroller.SchDoc  
+  inflating: db/5164/ZRPeripherals.SchDoc  
+  inflating: db/5164/._ZRPeripherals.SchDoc  
+  inflating: db/5164/ZRRadio.SchDoc  
+  inflating: db/5164/._ZRRadio.SchDoc  
+Loading ZRMicrocontroller.SchDoc
+
+Loading ZRPeripherals.SchDoc
+
+Loading ZRRadio.SchDoc
+
+Loading ZooidReceiverPCB.PcbDoc
+
+Done.
+Handling ZooidReceiverPCB-PcbDoc/Root Entry/FileHeader.dat
+Handling ZRMicrocontroller-SchDoc/Root Entry/FileHeader.dat
+Handling ZRPeripherals-SchDoc/Root Entry/FileHeader.dat
+Handling ZRRadio-SchDoc/Root Entry/FileHeader.dat
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+Handling ZRMicrocontroller.SchDoc
+Handling ZRPeripherals.SchDoc
+Handling ZRRadio.SchDoc
+Handling ZooidReceiverPCB-PcbDoc/Root Entry/Board6/Data.dat
+ASCII-ZooidReceiverPCB-PcbDoc.PcbDoc exists?
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Board6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Models/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/UniqueIDPrimitiveInformation/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Rules6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Classes6/Data.dat.txt
+Writing PCB to ZooidReceiverPCB-PcbDoc.kicad_pcb
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Nets6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Components6/Data.dat.txt
+Pads6...
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/ComponentBodies6/Data.dat.txt
+NOT FOUND: User Library-Johnson Components SMA - 50 Ohm Connectors 142-0701-801.wrl
+NOT FOUND: 27979.wrl
+NOT FOUND: 480372200.wrl
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/ShapeBasedComponentBodies6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Components6/Data.dat.txt
+Where did the model come from? componentid: 0
+Where did the model come from? componentid: 1
+Where did the model come from? componentid: 2
+Where did the model come from? componentid: 3
+Where did the model come from? componentid: 4
+Where did the model come from? componentid: 5
+Where did the model come from? componentid: 6
+Where did the model come from? componentid: 7
+Where did the model come from? componentid: 8
+Where did the model come from? componentid: 9
+Where did the model come from? componentid: 10
+Where did the model come from? componentid: 11
+Where did the model come from? componentid: 12
+Where did the model come from? componentid: 13
+Where did the model come from? componentid: 14
+Where did the model come from? componentid: 15
+Where did the model come from? componentid: 16
+Where did the model come from? componentid: 17
+Where did the model come from? componentid: 18
+Where did the model come from? componentid: 19
+Where did the model come from? componentid: 20
+Where did the model come from? componentid: 21
+Where did the model come from? componentid: 22
+Where did the model come from? componentid: 23
+Where did the model come from? componentid: 24
+Where did the model come from? componentid: 25
+Where did the model come from? componentid: 26
+Where did the model come from? componentid: 27
+Where did the model come from? componentid: 28
+Where did the model come from? componentid: 29
+Where did the model come from? componentid: 30
+Where did the model come from? componentid: 31
+Where did the model come from? componentid: 32
+Where did the model come from? componentid: 33
+Where did the model come from? componentid: 34
+Where did the model come from? componentid: 35
+Where did the model come from? componentid: 36
+Where did the model come from? componentid: 37
+Where did the model come from? componentid: 38
+Where did the model come from? componentid: 39
+Where did the model come from? componentid: 40
+Where did the model come from? componentid: 41
+Where did the model come from? componentid: 42
+Where did the model come from? componentid: 43
+Where did the model come from? componentid: 44
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Arcs6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Vias6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Polygons6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Tracks6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/FileVersionInfo/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Fills6/Data.dat.txt
+Writing to ZooidReceiverPCB-PcbDoc/Root Entry/Regions6/Data.dat.txt
+Texts6...

@@ -1,0 +1,126 @@
+Archive:  db/5162.zip
+  inflating: db/5162/ZooidMicrocontroller.SchDoc  
+  inflating: db/5162/._ZooidMicrocontroller.SchDoc  
+  inflating: db/5162/ZooidPCB.PcbDoc  
+  inflating: db/5162/._ZooidPCB.PcbDoc  
+  inflating: db/5162/ZooidPeripherals.SchDoc  
+  inflating: db/5162/._ZooidPeripherals.SchDoc  
+  inflating: db/5162/ZooidRadio.SchDoc  
+  inflating: db/5162/._ZooidRadio.SchDoc  
+Loading ZooidMicrocontroller.SchDoc
+
+Loading ZooidPeripherals.SchDoc
+
+Loading ZooidRadio.SchDoc
+
+Loading ZooidPCB.PcbDoc
+
+Done.
+Handling ZooidMicrocontroller-SchDoc/Root Entry/FileHeader.dat
+Handling ZooidPCB-PcbDoc/Root Entry/FileHeader.dat
+Handling ZooidPeripherals-SchDoc/Root Entry/FileHeader.dat
+Handling ZooidRadio-SchDoc/Root Entry/FileHeader.dat
+Handling ZooidMicrocontroller.SchDoc
+Handling ZooidPeripherals.SchDoc
+Handling ZooidRadio.SchDoc
+Handling ZooidPCB-PcbDoc/Root Entry/Board6/Data.dat
+ASCII-ZooidPCB-PcbDoc.PcbDoc exists?
+Writing to ZooidPCB-PcbDoc/Root Entry/Board6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Models/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/UniqueIDPrimitiveInformation/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Rules6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Classes6/Data.dat.txt
+Writing PCB to ZooidPCB-PcbDoc.kicad_pcb
+Writing to ZooidPCB-PcbDoc/Root Entry/Nets6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Components6/Data.dat.txt
+Pads6...
+Writing to ZooidPCB-PcbDoc/Root Entry/ComponentBodies6/Data.dat.txt
+NOT FOUND: 781710002.wrl
+NOT FOUND: SOT23.wrl
+NOT FOUND: 27979.wrl
+NOT FOUND: 781710003.wrl
+Writing to ZooidPCB-PcbDoc/Root Entry/ShapeBasedComponentBodies6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Components6/Data.dat.txt
+Where did the model come from? componentid: 0
+Where did the model come from? componentid: 1
+Where did the model come from? componentid: 2
+Where did the model come from? componentid: 3
+Where did the model come from? componentid: 4
+Where did the model come from? componentid: 5
+Where did the model come from? componentid: 6
+Where did the model come from? componentid: 7
+Where did the model come from? componentid: 8
+Where did the model come from? componentid: 9
+Where did the model come from? componentid: 10
+Where did the model come from? componentid: 11
+Where did the model come from? componentid: 12
+Where did the model come from? componentid: 13
+Where did the model come from? componentid: 14
+Where did the model come from? componentid: 15
+Where did the model come from? componentid: 16
+Where did the model come from? componentid: 17
+Where did the model come from? componentid: 18
+Where did the model come from? componentid: 19
+Where did the model come from? componentid: 20
+Where did the model come from? componentid: 21
+Where did the model come from? componentid: 22
+Where did the model come from? componentid: 23
+Where did the model come from? componentid: 24
+Where did the model come from? componentid: 25
+Where did the model come from? componentid: 26
+Where did the model come from? componentid: 27
+Where did the model come from? componentid: 28
+Where did the model come from? componentid: 29
+Where did the model come from? componentid: 30
+Where did the model come from? componentid: 31
+Where did the model come from? componentid: 32
+Where did the model come from? componentid: 33
+Where did the model come from? componentid: 34
+Where did the model come from? componentid: 35
+Where did the model come from? componentid: 36
+Where did the model come from? componentid: 37
+Where did the model come from? componentid: 38
+Where did the model come from? componentid: 39
+Where did the model come from? componentid: 40
+Where did the model come from? componentid: 41
+Where did the model come from? componentid: 42
+Where did the model come from? componentid: 43
+Where did the model come from? componentid: 44
+Where did the model come from? componentid: 45
+Where did the model come from? componentid: 46
+Where did the model come from? componentid: 47
+Where did the model come from? componentid: 48
+Where did the model come from? componentid: 49
+Where did the model come from? componentid: 50
+Where did the model come from? componentid: 51
+Where did the model come from? componentid: 52
+Where did the model come from? componentid: 53
+Where did the model come from? componentid: 54
+Where did the model come from? componentid: 55
+Where did the model come from? componentid: 56
+Where did the model come from? componentid: 57
+Where did the model come from? componentid: 58
+Where did the model come from? componentid: 59
+Where did the model come from? componentid: 60
+Where did the model come from? componentid: 61
+Where did the model come from? componentid: 62
+Where did the model come from? componentid: 63
+Where did the model come from? componentid: 64
+Where did the model come from? componentid: 65
+Where did the model come from? componentid: 66
+Where did the model come from? componentid: 67
+Where did the model come from? componentid: 68
+Where did the model come from? componentid: 69
+Where did the model come from? componentid: 70
+Where did the model come from? componentid: 71
+Where did the model come from? componentid: 72
+Writing to ZooidPCB-PcbDoc/Root Entry/Arcs6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Vias6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Polygons6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Tracks6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/FileVersionInfo/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Fills6/Data.dat.txt
+Writing to ZooidPCB-PcbDoc/Root Entry/Regions6/Data.dat.txt
+Texts6...
+Unmapped Layers:
+"KEEPOUT"=>"Eco1.User"
