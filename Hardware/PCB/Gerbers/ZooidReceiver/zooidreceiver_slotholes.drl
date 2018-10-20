@@ -10,4 +10,6 @@ DETECT,ON
 %
 G90
 T02
+XY //need values
+XY //need values
 M30
