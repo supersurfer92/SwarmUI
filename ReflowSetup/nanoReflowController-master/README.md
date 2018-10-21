@@ -1,6 +1,7 @@
 Reflow Oven Controller
 ====================
 
+http://therandomlab.blogspot.com/2017/07/halogen-floodlight-smt-reflow.html
 
 **News**
 
