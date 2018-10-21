@@ -1,4 +1,4 @@
-﻿Swarm Function ideas
+﻿Swarm Function ideas:
 
 -Have swarm automatically move captured stones to captured area/”bowl” and then self rearrange
 -Automatically organize swarm into “go bowl” area (probably should use 2 receivers, one for black and one for white and assign unique Ids like 1b, 2b, 1w, 2w, etc)
@@ -28,6 +28,26 @@ https://github.com/velvokay/BadukGen
 
 Top level/general Go functions
 https://www.britgo.org/gopcres/program
+
+
+Skinny prototype idea:
+-create new pcb on based on original schematics (go from horizontal planar circle to verticle square profile that matches the battery.)
+-use micro quadcopter 110mAh battery (10% higher capacity, long and skinny that can be mounted vertically to reduce footprint)
+-Skrink BadukBot's enclosure to match as close as possible to actual "official" go stone size (current foot print is 26mm, "official" stone diameter 22.5 mm)
+-Make PCB single sided so a cheap reflow setup like this can be used https://hackaday.com/2017/07/13/a-bright-idea-for-reflow-soldering/
+(less than $30/lamp using Harbor Freight halogen lamps that should be able to reflow 4-6 boards each[orders of magnitude better than 1 board at a time using hot air soldering for each side; can etch a couple boards using Arapahoe Library's Makerspace for free to make the reflow; they have a 3D printer, laser cutter, cnc, and basic small electronics tools)
+*can do something a bit larger in scale with: https://hackaday.com/2012/03/08/toaster-oven-reflow-soldering-roundup/*
+-Can use smaller motors like https://www.alibaba.com/product-detail/Coreless-Ultra-small-planetary-reduction-6mm_60804644083.html?spm=a2700.7724857.normalList.93.7ac27d6fkv36ah to reduce footprint by 2-4mm if firmware can be modified from 25:1 @ 1200 rpm to 136:1 @ 250 rpm. Can do 700:1 @ 45rpm to reduce by 4-6 mm but probably too slow (close to a regular 19x19 size play space though.) 
+-Change touch sensor so it has same surface area as Zooid, but change it from a ring to a helical coil around proto bat/board
+
+**EXCELLENT RESOURCES FOR START TO FINISH SMALL TO MEDIUM RUN ELECTRONIC MANUFACTURING**
+-Testing/Programming/Firmware flashing: https://hackaday.com/2016/08/24/tools-of-the-trade-test-and-programming/
+-Through hole soldering: https://hackaday.com/2016/07/22/tools-of-the-trade-through-hole-assembly/
+-Inspection: https://hackaday.com/2016/06/29/tools-of-the-trade-inspection/
+-Reflow: https://hackaday.com/2016/06/02/tools-of-the-trade-reflow/
+-Component Placing: https://hackaday.com/2016/05/10/tools-of-the-trade-component-placing/
+-Solder paste dispensing: https://hackaday.com/2016/03/10/tools-of-the-trade-solder-paste-dispensing/
+-Multiboard stencils: https://hackaday.com/2018/07/07/multi-board-solder-stencils-explained/
 
 
 
