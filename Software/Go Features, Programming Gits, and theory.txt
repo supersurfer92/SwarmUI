@@ -39,6 +39,7 @@ Skinny prototype idea:
 *can do something a bit larger in scale with: https://hackaday.com/2012/03/08/toaster-oven-reflow-soldering-roundup/*
 -Can use smaller motors like https://www.alibaba.com/product-detail/Coreless-Ultra-small-planetary-reduction-6mm_60804644083.html?spm=a2700.7724857.normalList.93.7ac27d6fkv36ah to reduce footprint by 2-4mm if firmware can be modified from 25:1 @ 1200 rpm to 136:1 @ 250 rpm. Can do 700:1 @ 45rpm to reduce by 4-6 mm but probably too slow (close to a regular 19x19 size play space though.) 
 -Change touch sensor so it has same surface area as Zooid, but change it from a ring to a helical coil around proto bat/board
+-Would need to go from current charging board to the smaller profile/need to go from lasercut acrylic to 3D printed frame to hold upside down bots to charge.
 
 **EXCELLENT RESOURCES FOR START TO FINISH SMALL TO MEDIUM RUN ELECTRONIC MANUFACTURING**
 -Testing/Programming/Firmware flashing: https://hackaday.com/2016/08/24/tools-of-the-trade-test-and-programming/
