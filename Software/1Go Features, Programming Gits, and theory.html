@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.1  (Unix)">
+	<META NAME="AUTHOR" CONTENT="Caleb Cover">
+	<META NAME="CREATED" CONTENT="20181020;20524800">
+	<META NAME="CHANGED" CONTENT="0;0">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in; direction: ltr; color: #000000; widows: 0; orphans: 0 }
+		P.western { font-family: "Times New Roman", serif; font-size: 12pt; so-language: en-US }
+		P.cjk { font-family: "Arial Unicode MS", sans-serif; font-size: 12pt; so-language: zh-CN }
+		P.ctl { font-family: "Arial Unicode MS", sans-serif; font-size: 12pt; so-language: hi-IN }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" TEXT="#000000" DIR="LTR">
+<P CLASS="western" STYLE="margin-bottom: 0in">Swarm Function ideas</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">-Have swarm
+automatically move captured stones to captured area/”bowl” and
+then self rearrange</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">-Automatically organize
+swarm into “go bowl” area (probably should use 2 receivers, one
+for black and one for white and assign unique Ids like 1b, 2b, 1w,
+2w, etc)</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">-Have “go bowl”
+swarm automatically pop one out for next move after playing current
+move/during other player's turn</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">-Go bowl and captured
+areas need to have space for 41/181 bots on each players side
+(something like 4x5 array and 13x14, can change ratios to make
+everything fit in projected space)</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">-Automatically score
+game(can manually move pieces to make adjustments/score corrections),
+winner has two bots move from go bowl and loser has 1 move out</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">-Pass function (put the
+bot that popped out back into the go bowl)</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">-Resign function (take
+two bots out of resignee's captured bots bowl)</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Go programming
+resources</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">List of resources on
+Github</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://github.com/waltheri/go-libraries">https://github.com/waltheri/go-libraries</A></U></SPAN></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Optical position
+recognition for go</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://github.com/tomasmcz/imago">https://github.com/tomasmcz/imago</A></U></SPAN></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Neural network for
+playing go (1 player vs Com)</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://github.com/jmoudrik/deep-go-wrap">https://github.com/jmoudrik/deep-go-wrap</A></U></SPAN></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://chrisc36.github.io/deep-go/">https://chrisc36.github.io/deep-go/</A></U></SPAN></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://github.com/joway/DeepNeuralNetworkGo">https://github.com/joway/DeepNeuralNetworkGo</A></U></SPAN></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">(and a computer to go
+with it, can be built for less than listed in article)</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000">https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000</A></U></SPAN></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">PvP in C++</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://github.com/velvokay/BadukGen">https://github.com/velvokay/BadukGen</A></U></SPAN></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Top level/general Go
+functions</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT COLOR="#000080"><SPAN LANG="zxx"><U><A HREF="https://www.britgo.org/gopcres/program">https://www.britgo.org/gopcres/program</A></U></SPAN></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+</BODY>
+</HTML>
