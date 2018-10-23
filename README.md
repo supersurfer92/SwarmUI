@@ -60,9 +60,9 @@ Goals include having defined areas for the bots including game play area on a gr
 The original SwarmUI project (https://github.com/ShapeLab/SwarmUI) is a joint work between the Shape Lab at Stanford University (USA) and the Aviz team at Inria (France).
 It was partially funded by the Région Ile de France, DIM ISC-PIF. We would also like to thank Alexa Siu, Shenli Yuan, Ernesto Ramirez and Pham Minh Hieu for investing so much time and efforts in making this work possible. 
 
-BadukBot and GoSwarm is a hobby project created by Caleb Cover and Nick Heynbased on SwarmUI.
+BadukBot and GoSwarm is a hobby project created by Caleb Cover and Nick Heyn based on SwarmUI.
 
-The original licenses are retained where applicable and the licenses used for new hardware developed will use a license that follows the Opens Source Hardware Association definition of Open Source Hardware (https://www.oshwa.org/definition/) 
+The original licenses are retained where applicable and the licenses used for new hardware developed will use a license that follows the Opens Source Hardware Association definition of Open Source Hardware (https://www.oshwa.org/definition/.) (Caleb works for OSHWA.)
 
 <p align="center">
 <img src="Images/logos.png" alt="logos" width="700">
