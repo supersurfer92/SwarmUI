@@ -18,8 +18,8 @@ https://www.youtube.com/watch?time_continue=125&v=ZVdAfDMP3m0
 <img src="Images/exploded.PNG" alt="exploded" width="400">
 </p>
 
-Zooids are small custom-made robots as shown above; their dimensions are 26 mm in diameter, 21 mm in height
-and they weight about 12 g. Each robot is powered by a 100 mAh LiPo battery and uses motor driven wheels. It contains a flexible elctrode for capacitive touch sensing. It communicates with the main computer through a NRF24L01+ chip on a separate receiver. Currently the limit for bots per receiver is 10. More can be added at a cost to performance/communication speed.
+The original Zooids are small custom-made robots as shown above; their dimensions are 26 mm in diameter, 21 mm in height
+and they weight about 12 g. Each robot is powered by a 100 mAh LiPo battery and uses motor driven wheels. They contain a flexible elctrode for capacitive touch sensing. It communicates with the main computer through a NRF24L01+ chip on a separate receiver. Currently the limit for bots per receiver is 10. More can be added at a cost to performance/communication speed.
 
 The original Zooid files have been converted from the original Altium files to KiCAD from scratch based on the original Zooid schematic pdf. The new PCBs and schematics are located in the Skinny_prototype directory (the original files were attempted to be converted with altium2kicad but would break on export.) The Proto BOM consolidates the components for Zooids, Receivers, chargers, and tools required into one sheet. The new BOM is mostly the same with changes to include prices, links, and modifications to quantities to make 81 (for a 9x9 board) and 361 (for a 19x19 board) bots in the Master BOM spreadsheet.
 
