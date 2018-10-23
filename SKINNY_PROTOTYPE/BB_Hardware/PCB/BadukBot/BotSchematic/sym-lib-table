@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name BotSchematic-rescue)(type Legacy)(uri ${KIPRJMOD}/BotSchematic-rescue.lib)(options "")(descr ""))
 )

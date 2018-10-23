@@ -1080,7 +1080,7 @@
   )
 
   (module 100nf:C0402C104K4RACTU (layer F.Cu) (tedit 0) (tstamp 5BD09AFB)
-    (at 244.75 108.15 270)
+    (at 242.75 108.1166 270)
     (path /5BCE52B2)
     (fp_text reference C10 (at 0 -1.2 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1120,7 +1120,7 @@
   )
 
   (module 100nf:C0402C104K4RACTU (layer F.Cu) (tedit 0) (tstamp 5BD09B14)
-    (at 237.55 108.1 270)
+    (at 238.142257 108.109791 270)
     (path /5BCE531B)
     (fp_text reference C11 (at 0 -1.2 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1480,7 +1480,7 @@
   )
 
   (module 100K:CRCW0402100KFKED (layer F.Cu) (tedit 0) (tstamp 5BD09BF5)
-    (at 234.1 106.05 270)
+    (at 234.942257 107.159791 270)
     (path /5BCE1F02)
     (fp_text reference R6 (at 0 -1.15 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1520,7 +1520,7 @@
   )
 
   (module 10K0402:CRCW040210K0FKED (layer F.Cu) (tedit 0) (tstamp 5BD09C0E)
-    (at 235.392257 102.259791 270)
+    (at 236.042257 103.359791 270)
     (path /5BCD8F43)
     (fp_text reference R7 (at 0 -1.189601 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1600,7 +1600,7 @@
   )
 
   (module 10K0402:CRCW040210K0FKED (layer F.Cu) (tedit 0) (tstamp 5BD09C40)
-    (at 232.742257 102.259791 270)
+    (at 233.392257 103.359791 270)
     (path /5BCD8E49)
     (fp_text reference R9 (at 0 -1.2 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
