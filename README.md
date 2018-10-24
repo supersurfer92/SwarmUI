@@ -78,7 +78,7 @@ The original SwarmUI project (https://github.com/ShapeLab/SwarmUI) is a joint wo
 
 BadukBot and GoSwarm is a hobby project created by Caleb Cover and Nick Heyn based on SwarmUI.
 
-The original licenses are retained where applicable and the licenses used for new hardware developed will use a license that follows the Open Source Hardware Association definition of Open Source Hardware (https://www.oshwa.org/definition/.) (Caleb works for OSHWA.)
+The original licenses are retained where applicable and the licenses used for new hardware developed will use a license that follows the Open Source Hardware Association definition of Open Source Hardware (https://www.oshwa.org/definition/.)
 
 <p align="center">
 <img src="Images/logos.png" alt="logos" width="700">
