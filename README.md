@@ -51,11 +51,20 @@ Each robot independently controls its motion through a PID controller based on t
 The modified software for playing Go using SwarmUI (GoSwarm) can be found at https://github.com/nheyn/GoSwarm and modified firmware will be maintained in this repo.
 
 Goals include:
+
 -defined areas for the bots including game play area on a grid
+
 -automatically arranging bots to a Go bowl area
+
 -automatically moving captured stones/bots to a defined captured bowl area
+
 -queueing bots for the next turn
+
 -game play rules like passing/resigning
+
+-automatic scoring (and the ability to adjust captured areas)
+
+-the ability to show which player is the winner (2 bots emerge from the winners go bowl, 1 from the loser after both sides pass or one resigns)
 
 Resources and goals for features can be found at https://github.com/supersurfer92/SwarmUI-BadukBots/blob/master/Software/Go%20Features%2C%20Programming%20Gits%2C%20and%20theory.txt
 
