@@ -1,6 +1,6 @@
 # BadukBot: Swarming robots to play the game Go/Baduk
 
-Based on Zooids: Building Blocks for Swarm User Interfaces \\  Extended Material
+Based on Zooids: Building Blocks for Swarm User Interfaces
 
 ![Teaser](/Images/Teaser3.png)
 Zooids, an open-source open-hardware platform for developing tabletop swarm interfaces, consist of a collection of custom-designed wheeled micro robots (each 2.6 cm in diameter), a radio base-station, a highspeed DLP structured light projector for optical tracking, and a software framework for application development and control.
@@ -19,9 +19,9 @@ Zooids in action: https://www.youtube.com/watch?time_continue=125&v=ZVdAfDMP3m0
 The original Zooids are small custom-made robots as shown above; their dimensions are 26 mm in diameter, 21 mm in height
 and they weight about 12 g. Each robot is powered by a 100 mAh LiPo battery and uses motor driven wheels. They contain a flexible elctrode for capacitive touch sensing. It communicates with the main computer through a NRF24L01+ chip on a separate receiver. Currently the limit for bots per receiver is 10. More can be added at a cost to performance/communication speed.
 
-BadukBots will be 22.5 mm in diameter and 50 mm in height. each bot is powered by a 200 mAh lipo battery with motor driven wheels. All other specs are the same as the origninal Zooid design.
+BadukBots are 22.5 mm in diameter and 50 mm in height. Each bot is powered by a 200 mAh lipo battery with motor driven wheels.
 
-The original Zooid files have been converted from Altium files to KiCAD from scratch based on the original Zooid schematic pdf. The new PCBs and schematics are located in the Skinny_prototype directory. The Proto BOM consolidates the components for Zooids, Receivers, chargers, and tools required into one sheet. The new BOM is mostly the same with changes to include prices, links, and modifications to quantities to make 81 (for a 9x9 board) and 361 (for a 19x19 board) bots in the Master BOM spreadsheet.
+The original Zooid files have been converted from Altium schematics to KiCAD from scratch based on the original Zooid schematic pdf (original files break when converted.) The new PCBs and schematics are located in the BadukBot directory. The Proto...BOM consolidates the components for bots, Receivers, chargers, and tools required into one sheet. The new BOM is mostly the same with changes to include prices, links, and modifications to quantities to make 81 (for a 9x9 board) and 361 (for a 19x19 board) bots in the Master BOM spreadsheet.
 
 The PCB is designed using KiCAD and FreeRouting. The 3D files are created in MODO. The BadukBot breaks the design into 3 single boards that encase the battery to both make it possible to reflow at home and reduce the foot print to 22.5 mm from the Zooid's 26 mm (go stones are 22.5 mm and allow for a full 19x19 board to fit in the projection area.) Dimensions for bots and the playspace are based on https://senseis.xmp.net/?EquipmentDimensions and will be scaled if needed accordingly.
 
