@@ -62,7 +62,7 @@ It was partially funded by the Région Ile de France, DIM ISC-PIF. We would also
 
 BadukBot and GoSwarm is a hobby project created by Caleb Cover and Nick Heyn based on SwarmUI.
 
-The original licenses are retained where applicable and the licenses used for new hardware developed will use a license that follows the Opens Source Hardware Association definition of Open Source Hardware (https://www.oshwa.org/definition/.) (Caleb works for OSHWA.)
+The original licenses are retained where applicable and the licenses used for new hardware developed will use a license that follows the Open Source Hardware Association definition of Open Source Hardware (https://www.oshwa.org/definition/.) (Caleb works for OSHWA.)
 
 <p align="center">
 <img src="Images/logos.png" alt="logos" width="700">
