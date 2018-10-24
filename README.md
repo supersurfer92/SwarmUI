@@ -1,4 +1,7 @@
-# Zooids: Building Blocks for Swarm User Interfaces \\  Extended Material
+# BadukBot: Swarming robots to play the game Go/Baduk
+
+Based on Zooids: Building Blocks for Swarm User Interfaces \\  Extended Material
+
 ![Teaser](/Images/Teaser3.png)
 This paper introduces swarm user interfaces, a new class of human-computer interfaces comprised of many autonomous
 robots that handle both display and interaction. We describe the design of Zooids, an open-source open-hardware platform
