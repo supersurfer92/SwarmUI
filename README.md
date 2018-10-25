@@ -35,6 +35,10 @@ The system uses a projector-based tracking system for robot position tracking as
 The instruction for setting up this projector-based tracking system is included in the repository. 
 There are other DLPLCEVM projectors available at lower resolutions and refresh rates ranging from $140 to $1600.
 
+The play area will be mapped to make a main play area, a go bowl area and a capture pieces area
+
+![Teaser](/Images/playspaceMapping.JPG)
+
 ## Software
 <p align="center">
 <img src="Images/architecture.PNG" alt="architecture" width="700">
@@ -70,6 +74,10 @@ Goals include:
 -the ability to show which player is the winner (2 bots emerge from the winners go bowl, 1 from the loser after both sides pass or one resigns)
 
 Resources and goals for features can be found at https://github.com/supersurfer92/SwarmUI-BadukBots/blob/master/Software/Go%20Features%2C%20Programming%20Gits%2C%20and%20theory.txt
+
+GoSwarm has rewritten the ZooidManager program from C++ to Java and is currently developing swarming functions
+
+![Teaser](/Images/bowlswarmingtest.mov)
 
 <p align="center">
 <img src="Images/local_control.PNG" alt="control" width="700">
