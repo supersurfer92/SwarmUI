@@ -5,6 +5,9 @@ Based on Zooids: Building Blocks for Swarm User Interfaces
 ![Teaser](/Images/Teaser3.png)
 Zooids, an open-source open-hardware platform for developing tabletop swarm interfaces, consist of a collection of custom-designed wheeled micro robots (each 2.6 cm in diameter), a radio base-station, a highspeed DLP structured light projector for optical tracking, and a software framework for application development and control.
 
+Initial sketch of the redesigned Zooid, the BadukBot:
+![Teaser](/Images/BadukBotSketch_0.0.1.JPG)
+
 BadukBot is based on Zooid software and hardware modified to play the game Go/Baduk/Weiqi. https://en.wikipedia.org/wiki/Go_(game)
 
 Zooids in action: https://www.youtube.com/watch?time_continue=125&v=ZVdAfDMP3m0
