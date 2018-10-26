@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BotSchematic)(type KiCad)(uri /Users/calebcover/Documents/GitHub/ZooidSwarm_Baduk-Go-Weiqi_Fork/SKINNY_PROTOTYPE/BB_Hardware/PCB/BadukBot/BotSchematic)(options "")(descr ""))
+  (lib (name Silk)(type KiCad)(uri /Users/calebcover/Documents/GitHub/ZooidSwarm_Baduk-Go-Weiqi_Fork/SKINNY_PROTOTYPE/Silk)(options "")(descr ""))
+)
