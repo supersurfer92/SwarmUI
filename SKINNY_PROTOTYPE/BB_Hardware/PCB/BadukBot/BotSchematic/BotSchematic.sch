@@ -237,8 +237,6 @@ F 3 "" H 15400 4750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 7000 3550 7000
-Wire Wire Line
 	3450 7350 3450 7100
 $Comp
 L 10K0402:CRCW040210K0FKED R22
@@ -297,9 +295,6 @@ Wire Wire Line
 	3450 7350 3300 7350
 Wire Wire Line
 	4200 7350 3550 7350
-Connection ~ 3550 7000
-Wire Wire Line
-	3550 7000 3650 7000
 Text Notes 1600 7750 2    118  ~ 24
 Charger
 $Comp
@@ -373,8 +368,6 @@ F 4 "https://www.segger.com/products/debug-probes/j-link/accessories/adapters/6-
 $EndComp
 Text Notes 14750 6850 2    59   ~ 12
 VCC\nSWDIO\nnRESET\nSWCLK\nGND\nSWO
-Wire Wire Line
-	15000 6300 15200 6300
 Wire Wire Line
 	15000 6700 15200 6700
 $Comp
@@ -522,7 +515,7 @@ F 3 "" H 9400 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9100 6800 0    39   BiDi ~ 8
-NSRT
+NRST
 Wire Wire Line
 	10200 5000 10200 5300
 Wire Wire Line
@@ -1117,8 +1110,6 @@ Wire Notes Line
 Wire Notes Line
 	800  2800 800  4900
 Wire Wire Line
-	3550 7000 3550 7350
-Wire Wire Line
 	3450 6750 3450 6900
 Wire Notes Line
 	14350 7550 16250 7550
@@ -1316,8 +1307,6 @@ F 3 "" H 3900 4900 118 0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 5200 2950 5200
-Wire Wire Line
 	2950 5200 2950 5300
 Wire Wire Line
 	3100 7400 3300 7400
@@ -1328,7 +1317,7 @@ Wire Wire Line
 	8950 6200 9100 6200
 Text Notes 700  2650 0    59   ~ 12
 21a 3.3v\n22a VBAT\n23a GND\n24a IMU_INT\n25a SDA\n26a SCL\n27a CHARGING\n28a P4-1\n29a TOUCH_CHG\n30a P4
-Text Notes 5300 7550 0    59   ~ 12
+Text Notes 5400 7400 0    59   ~ 12
 Pins to connections:\n1b 3.3v\n2b GND\n3b Photodiode1\n4b photodiode2\n5b RGBLED1\n6b RGBLED2\n7b RGBLED3\n8b IO1\n9b IO2\n10b SDA\n11b SCL\n12b ANT1\n13b ANT2\n14b VDD_PA\n15b P4-1\n\n21b 3.3v\n22b VBAT\n23b GND\n24b IMU_INT\n25b SDA\n26b SCL\n27b CHARGING\n28b P4-1\n29b TOUCH_CHG
 $Comp
 L 16pos2mmRA:0877601616 J11
@@ -1361,13 +1350,7 @@ Wire Notes Line
 Wire Notes Line
 	11900 4400 7900 4400
 Wire Notes Line
-	5100 10400 5100 1500
-Wire Notes Line
-	5100 1500 500  1500
-Wire Notes Line
 	500  10450 5100 10450
-Wire Notes Line
-	500  1500 500  10450
 Wire Notes Line
 	6050 850  6050 4700
 Wire Notes Line
@@ -1430,11 +1413,11 @@ Text GLabel 7100 1750 2    50   BiDi ~ 0
 3a_PHOTODIODE1
 Text GLabel 8500 1750 2    50   BiDi ~ 0
 4a_PHOTODIODE2
-Text GLabel 10950 2350 2    50   BiDi ~ 0
+Text GLabel 10400 2450 2    50   BiDi ~ 0
 5a_RGBLED1
-Text GLabel 10550 2700 2    50   BiDi ~ 0
+Text GLabel 10400 2800 2    50   BiDi ~ 0
 6a_RGBLED2
-Text GLabel 10950 2100 2    50   BiDi ~ 0
+Text GLabel 10400 2100 2    50   BiDi ~ 0
 7a_RGBLED3
 Text GLabel 12200 1650 0    50   BiDi ~ 0
 12a_ANT1
@@ -1492,8 +1475,6 @@ Text GLabel 800  5300 0    50   BiDi ~ 0
 21a_3.3v
 Text GLabel 2850 5200 0    50   BiDi ~ 0
 22a_VBAT
-Text GLabel 2850 5800 0    50   BiDi ~ 0
-23a_GND
 Text GLabel 3300 3750 2    50   BiDi ~ 0
 24a_IMU_INT
 Text GLabel 1100 4150 0    50   BiDi ~ 0
@@ -1529,12 +1510,6 @@ F 3 "" H 1050 6900 60  0000 C CNN
 	1    1050 6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 4800 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 1550 3250 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 2200 3250 0    50   BiDi ~ 0
-23a_GND
 Text GLabel 3400 3250 2    50   BiDi ~ 0
 21a_3.3v
 Text GLabel 1850 2750 2    50   BiDi ~ 0
@@ -1545,32 +1520,12 @@ Text GLabel 1650 4550 2    50   BiDi ~ 0
 21a_3.3v
 Text GLabel 950  3550 2    50   BiDi ~ 0
 21a_3.3v
-Text GLabel 2600 5700 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 1300 5850 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 800  5850 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 4350 6650 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 4050 7900 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 3150 7900 0    50   BiDi ~ 0
-23a_GND
 Text GLabel 1050 6750 0    50   BiDi ~ 0
 21a_3.3v
-Text GLabel 950  7450 0    50   BiDi ~ 0
-23a_GND
 Text GLabel 4050 8400 0    50   BiDi ~ 0
 21a_3.3v
 Text GLabel 5050 8300 0    50   BiDi ~ 0
 21a_3.3v
-Text GLabel 4100 8650 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 4450 10200 0    50   BiDi ~ 0
-23a_GND
-Text GLabel 5150 9350 0    50   BiDi ~ 0
-23a_GND
 Wire Wire Line
 	4450 10200 4550 10200
 Wire Wire Line
@@ -1693,21 +1648,19 @@ Text GLabel 12350 6050 0    50   BiDi ~ 0
 1b_3.3v
 Text GLabel 12850 6150 0    50   BiDi ~ 0
 1b_3.3v
-Text GLabel 13350 6050 0    50   BiDi ~ 0
+Text GLabel 13300 5950 0    50   BiDi ~ 0
 1b_3.3v
-Text GLabel 13850 6300 0    50   BiDi ~ 0
+Text GLabel 13850 6200 0    50   BiDi ~ 0
 1b_3.3v
-Text GLabel 15200 6000 0    50   BiDi ~ 0
+Text GLabel 15000 6300 2    50   BiDi ~ 0
 1b_3.3v
 Text GLabel 15850 7600 0    50   BiDi ~ 0
 1b_3.3v
 Text GLabel 14700 8300 0    50   BiDi ~ 0
 1b_3.3v
-Wire Wire Line
-	15200 6000 15200 6300
 Text GLabel 11650 9800 2    50   BiDi ~ 0
 2b_GND
-Text GLabel 11500 6050 2    50   BiDi ~ 0
+Text GLabel 11450 5900 2    50   BiDi ~ 0
 2b_GND
 Text GLabel 12300 5450 2    50   BiDi ~ 0
 2b_GND
@@ -1715,11 +1668,11 @@ Text GLabel 14450 5350 2    50   BiDi ~ 0
 2b_GND
 Text GLabel 15200 7200 2    50   BiDi ~ 0
 2b_GND
-Text GLabel 13850 6700 2    50   BiDi ~ 0
+Text GLabel 13950 6600 2    50   BiDi ~ 0
 2b_GND
-Text GLabel 13700 6850 2    50   BiDi ~ 0
+Text GLabel 13400 6600 2    50   BiDi ~ 0
 2b_GND
-Text GLabel 12850 6700 2    50   BiDi ~ 0
+Text GLabel 12850 6600 2    50   BiDi ~ 0
 2b_GND
 Text GLabel 12350 6600 2    50   BiDi ~ 0
 2b_GND
@@ -1897,20 +1850,14 @@ Wire Wire Line
 	8850 6900 9100 6900
 Wire Wire Line
 	8650 6400 8650 6450
-Text GLabel 8850 5300 2    50   BiDi ~ 0
+Text GLabel 8850 5300 0    50   BiDi ~ 0
 2b_GND
-Wire Wire Line
-	8850 5400 9250 5400
-Wire Wire Line
-	9250 5400 9250 5300
-Wire Wire Line
-	9250 5300 9400 5300
 Wire Wire Line
 	8850 5200 9600 5200
 Wire Wire Line
 	9600 5200 9600 5300
 Wire Wire Line
-	8850 5200 8850 5400
+	8850 5200 8850 5300
 Wire Wire Line
 	10200 8000 10200 8200
 Wire Wire Line
@@ -1933,36 +1880,14 @@ Wire Wire Line
 	10800 8000 10500 8000
 Wire Wire Line
 	11350 7750 11350 7800
-Text GLabel 9250 4650 0    50   BiDi ~ 0
+Text GLabel 9400 4800 0    50   BiDi ~ 0
 2b_GND
-Wire Wire Line
-	9250 4650 9250 4700
-Wire Wire Line
-	9250 4700 9400 4700
-Wire Wire Line
-	9400 4700 9400 4800
-Wire Wire Line
-	11500 6050 11500 6100
-Wire Wire Line
-	11500 6100 11450 6100
-Wire Wire Line
-	11450 5900 11450 6100
 Wire Wire Line
 	13350 6050 13350 6300
 Wire Wire Line
 	12850 6150 12850 6300
 Wire Wire Line
 	12350 6050 12350 6300
-Wire Wire Line
-	13850 6700 13850 6600
-Wire Wire Line
-	13700 6850 13700 6800
-Wire Wire Line
-	13700 6800 13350 6800
-Wire Wire Line
-	13350 6800 13350 6600
-Wire Wire Line
-	12850 6700 12850 6600
 Wire Wire Line
 	13900 8700 13900 8600
 Wire Wire Line
@@ -2200,13 +2125,6 @@ Wire Wire Line
 	2600 3150 2600 3450
 Connection ~ 3400 3250
 Wire Wire Line
-	2500 4800 2500 4850
-Wire Wire Line
-	2500 4850 3200 4850
-Wire Wire Line
-	3200 4850 3200 3850
-Connection ~ 2500 4800
-Wire Wire Line
 	2200 3250 2200 3500
 Wire Wire Line
 	2200 3500 2000 3500
@@ -2264,8 +2182,6 @@ Wire Wire Line
 	5150 9450 4850 9450
 Wire Wire Line
 	4850 9450 4850 10050
-Wire Wire Line
-	5150 9150 5150 9450
 Wire Wire Line
 	2300 9450 2300 9750
 Wire Wire Line
@@ -2333,70 +2249,66 @@ Wire Wire Line
 	15000 1500 16100 1500
 Wire Wire Line
 	16100 1500 16100 1350
-Text GLabel 4600 8350 0    50   BiDi ~ 0
-23a_GND
 $Comp
-L 16pos_2mm_SMD:A3-16DA-2SV(71) J12
+L 16pos2mmRA:0877601616 J12
 U 1 1 5E9C0D83
-P 1300 1550
-F 0 "J12" V 1350 -100 50  0000 R CNN
-F 1 "A3-16DA-2SV(71)" H 1300 1550 50  0001 L BNN
-F 2 "16pos2mm1:A3-16DA-2SV(71)" H 1300 1550 50  0001 L BNN
-F 3 "" H 1300 1550 50  0001 C CNN
-	1    1300 1550
-	0    -1   1    0   
+P 3200 1600
+F 0 "J12" H 2400 1500 50  0000 R CNN
+F 1 "A3-16DA-2SV(71)" H 3200 1600 50  0001 L BNN
+F 2 "A13:A13_1" H 3200 1600 50  0001 L BNN
+F 3 "" H 3200 1600 50  0001 C CNN
+	1    3200 1600
+	-1   0    0    -1  
 $EndComp
 $Comp
 L 16pos2mmRA:0877601616 J13
 U 1 1 5EA23590
-P 6900 8300
-F 0 "J13" H 7830 8346 50  0000 L CNN
-F 1 "0877601616" H 7830 8255 50  0000 L CNN
-F 2 "16pos2mmRA:62401621722" H 6900 8300 50  0001 L BNN
-F 3 "Wurth Electronics" H 6900 8300 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/0877581616/WM18839-ND/674598?utm_campaign=buynow&WT.z_cid=ref_octopart_dkc_buynow&utm_medium=aggregator&curr=usd&site=us&utm_source=octopart" H 6900 8300 50  0001 L BNN "link"
-F 5 "https://www.molex.com/pdm_docs/sd/877582816_sd.pdf" H 6900 8300 50  0001 L BNN "datashee"
-F 6 "Unavailable" H 6900 8300 50  0001 L BNN "Field6"
-F 7 "62401621722" H 6900 8300 50  0001 L BNN "Field7"
-F 8 "Conn Headr 16pos 2mm r/a t/h" H 6900 8300 50  0001 L BNN "Field8"
-	1    6900 8300
+P 6850 7950
+F 0 "J13" H 7780 7996 50  0000 L CNN
+F 1 "0877601616" H 7780 7905 50  0000 L CNN
+F 2 "16pos2mmRA:62401621722" H 6850 7950 50  0001 L BNN
+F 3 "Wurth Electronics" H 6850 7950 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/0877581616/WM18839-ND/674598?utm_campaign=buynow&WT.z_cid=ref_octopart_dkc_buynow&utm_medium=aggregator&curr=usd&site=us&utm_source=octopart" H 6850 7950 50  0001 L BNN "link"
+F 5 "https://www.molex.com/pdm_docs/sd/877582816_sd.pdf" H 6850 7950 50  0001 L BNN "datashee"
+F 6 "Unavailable" H 6850 7950 50  0001 L BNN "Field6"
+F 7 "62401621722" H 6850 7950 50  0001 L BNN "Field7"
+F 8 "Conn Headr 16pos 2mm r/a t/h" H 6850 7950 50  0001 L BNN "Field8"
+	1    6850 7950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7300 8700 3    50   BiDi ~ 0
+Text GLabel 7250 8350 3    50   BiDi ~ 0
 25b_SDA
-Text GLabel 7500 7900 1    50   BiDi ~ 0
+Text GLabel 7450 7550 1    50   BiDi ~ 0
 24b_IMU_INT
-Text GLabel 7700 8700 3    50   BiDi ~ 0
+Text GLabel 7650 8350 3    50   BiDi ~ 0
 1b_3.3v
-Text GLabel 7500 8700 3    50   BiDi ~ 0
+Text GLabel 7450 8350 3    50   BiDi ~ 0
 2b_GND
-Text GLabel 7700 7900 1    50   BiDi ~ 0
+Text GLabel 7650 7550 1    50   BiDi ~ 0
 22b_VBAT
-Text GLabel 7300 7900 1    50   BiDi ~ 0
+Text GLabel 7250 7550 1    50   BiDi ~ 0
 26b_SCL
-Text GLabel 7100 8700 3    50   BiDi ~ 0
+Text GLabel 7050 8350 3    50   BiDi ~ 0
 27b_CHARGING
-Text GLabel 7100 7900 1    50   BiDi ~ 0
+Text GLabel 7050 7550 1    50   BiDi ~ 0
 15b_P4-1
-Text GLabel 6900 8700 3    50   BiDi ~ 0
+Text GLabel 6850 8350 3    50   BiDi ~ 0
 ~29b_TOUCH_CHG~
-Text GLabel 1700 2050 3    50   BiDi ~ 0
+Text GLabel 2400 2000 3    50   BiDi ~ 0
 21a_3.3v
-Text GLabel 2100 2050 3    50   BiDi ~ 0
+Text GLabel 2400 1200 1    50   BiDi ~ 0
 22a_VBAT
-Text GLabel 1900 2050 3    50   BiDi ~ 0
-23a_GND
-Text GLabel 2300 2050 3    50   BiDi ~ 0
+Text GLabel 2600 1200 1    50   BiDi ~ 0
 24a_IMU_INT
-Text GLabel 2500 2050 3    50   BiDi ~ 0
+Text GLabel 2800 2000 3    50   BiDi ~ 0
 25a_SDA
-Text GLabel 2700 2050 3    50   BiDi ~ 0
+Text GLabel 2800 1200 1    50   BiDi ~ 0
 26a_SCL
-Text GLabel 2900 2050 3    50   BiDi ~ 0
+Text GLabel 3000 2000 3    50   BiDi ~ 0
 27a_CHARGING
-Text GLabel 3100 2050 3    50   BiDi ~ 0
+Text GLabel 3000 1200 1    50   BiDi ~ 0
 28a_P4-1
-Text GLabel 3300 2050 3    50   BiDi ~ 0
+Text GLabel 3200 2000 3    50   BiDi ~ 0
 ~29a_TOUCH_CHG~
 Wire Wire Line
 	8200 2350 8200 2550
@@ -2517,4 +2429,102 @@ Wire Wire Line
 	15150 1750 15150 2800
 Text GLabel 12200 1550 0    50   BiDi ~ 0
 13a_ANT2
+Wire Wire Line
+	8850 5300 9400 5300
+NoConn ~ 6850 7550
+NoConn ~ 6650 7550
+NoConn ~ 6450 7550
+NoConn ~ 6250 7550
+NoConn ~ 6650 8350
+NoConn ~ 6450 8350
+NoConn ~ 6250 8350
+NoConn ~ 6700 6300
+NoConn ~ 6900 6300
+NoConn ~ 6900 5500
+NoConn ~ 7100 5500
+NoConn ~ 7700 5500
+NoConn ~ 3600 2000
+NoConn ~ 3800 2000
+NoConn ~ 3200 1200
+NoConn ~ 3400 1200
+NoConn ~ 3600 1200
+NoConn ~ 3800 1200
+NoConn ~ 9550 3550
+NoConn ~ 9750 3550
+NoConn ~ 9950 3550
+NoConn ~ 10150 3550
+NoConn ~ 11150 3550
+Wire Notes Line
+	5100 600  500  600 
+Wire Notes Line
+	5100 600  5100 10400
+Wire Notes Line
+	500  600  500  10450
+Wire Wire Line
+	2800 5200 2800 4950
+Wire Wire Line
+	2800 4950 600  4950
+Wire Wire Line
+	600  4950 600  1200
+Wire Wire Line
+	600  1200 2400 1200
+Text GLabel 1550 3250 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 2200 3250 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 2500 4800 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 2850 5800 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 2600 5700 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 1300 5850 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 800  5850 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 3150 7900 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 4050 7900 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 4350 6650 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 950  7450 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 4100 8650 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 5150 9350 2    50   BiDi ~ 0
+23a_Ground
+Text GLabel 4450 10200 2    50   BiDi ~ 0
+23a_Ground
+Wire Wire Line
+	2800 5200 2950 5200
+Wire Wire Line
+	5150 9150 5150 9450
+Text GLabel 2600 2000 3    50   BiDi ~ 0
+23a_Ground
+NoConn ~ 3400 2000
+Wire Wire Line
+	3550 7050 3450 7050
+Wire Wire Line
+	3450 7050 3450 7000
+Wire Wire Line
+	3550 7050 3550 7350
+Connection ~ 3450 7000
+Wire Wire Line
+	3450 7000 3650 7000
+Text GLabel 13350 6700 2    50   BiDi ~ 0
+23a_Ground
+Wire Wire Line
+	13350 6700 13350 6600
+Text GLabel 13900 6700 2    50   BiDi ~ 0
+23a_Ground
+Wire Wire Line
+	13900 6700 13900 6600
+Wire Wire Line
+	13900 6600 13850 6600
+NoConn ~ 3200 3850
+Text GLabel 13850 6300 2    50   BiDi ~ 0
+21a_3.3v
+Text GLabel 13350 6050 2    50   BiDi ~ 0
+21a_3.3v
 $EndSCHEMATC
