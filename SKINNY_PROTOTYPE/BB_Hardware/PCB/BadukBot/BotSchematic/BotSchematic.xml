@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/calebcover/Documents/GitHub/ZooidSwarm_Baduk-Go-Weiqi_Fork/SKINNY_PROTOTYPE/BB_Hardware/PCB/BadukBot/BotSchematic/BotSchematic.sch</source>
+    <date>Thursday, November 01, 2018 at 08:17:30 PM</date>
+    <tool>Eeschema (5.0.0-3-g0214c9d)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BadukBot_Schematic</title>
+        <company>Converted to KiCAD by Caleb Cover</company>
+        <rev>0.1.0</rev>
+        <date/>
+        <source>BotSchematic.sch</source>
+        <comment number="1" value="CC-BY-SA 4.0"/>
+        <comment number="2" value="Original unmodified schematics at https://github.com/ShapeLab/SwarmUI/"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>nrf24l01</value>
+      <footprint>JOHANSON_2450BM14A0002T:JOHANSON_2450BM14A0002T_0</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1643106.pdf?_ga=2.134543665.1112476910.1541102294-1902165978.1539975467&amp;_gac=1.128663934.1541104991.CjwKCAjwyOreBRAYEiwAR2mSkrqxDBWSxDo3K2qn5v8ApsKwSFJXWQQSlKb4sHqbOIvjLgr426e8yxoCCUEQAvD_BwE</datasheet>
+      <fields>
+        <field name="manf#">2450BM14A0002T</field>
+        <field name="mnf#">2450BM14A0002T</field>
+      </fields>
+      <libsource lib="JOHANSON_2450BM14A0002T" part="JOHANSON_2450BM14A0002T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCCE6A6</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>0R</value>
+      <footprint>footprints:ERJ-2GE0R00X</footprint>
+      <fields>
+        <field name="manf#">RC0402JR-070RL</field>
+        <field name="mnf#">RC0402JR070RL</field>
+      </fields>
+      <libsource lib="symbols" part="ERJ-2GE0R00X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCCF00F</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>2.2nF</value>
+      <footprint>2.2nF X7R 50V:C0402C222K5RACTU</footprint>
+      <fields>
+        <field name="manf#">C0402C222K5RACTU</field>
+        <field name="mnf#">C0402C222K5RACTU</field>
+      </fields>
+      <libsource lib="2.2nF_X7R_50V" part="C0402C222K5RACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCCFB24</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LSM6DS3</value>
+      <footprint>digikey-footprints:LGA-14L_2.5x3mm__LSM6DS3</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/application_note/12/98/b4/44/a5/bf/4e/c5/DM00157511.pdf/files/DM00157511.pdf/jcr:content/translations/en.DM00157511.pdf</datasheet>
+      <fields>
+        <field name="DK_Datasheet_Link">https://www.st.com/content/ccc/resource/technical/document/datasheet/a3/f5/4f/ae/8e/44/41/d7/DM00133076.pdf/files/DM00133076.pdf/jcr:content/translations/en.DM00133076.pdf</field>
+        <field name="manf#">LSM6DS3TR</field>
+        <field name="mnf#">LSM6DS3TR</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="LSM6DS3" description="I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD629D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>10K0402:CRCW040210K0FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+        <field name="mnf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="10K0402" part="CRCW040210K0FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD8E49</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>10K0402:CRCW040210K0FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+        <field name="mnf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="10K0402" part="CRCW040210K0FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD8F43</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>100K:CRCW0402100KFKED</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100KFKED</field>
+        <field name="mnf#">CRCW0402100KFKED</field>
+      </fields>
+      <libsource lib="100K" part="CRCW0402100KFKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCE1F02</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="100nf" part="C0402C104K4RACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCE531B</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>1uF:0603ZD105KAT2A</footprint>
+      <fields>
+        <field name="manf#">0603ZD105KAT2A</field>
+        <field name="mnf#">0603ZD105KAT2A</field>
+      </fields>
+      <libsource lib="1uF" part="0603ZD105KAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCEB291</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>1uF:0603ZD105KAT2A</footprint>
+      <fields>
+        <field name="manf#">0603ZD105KAT2A</field>
+        <field name="mnf#">0603ZD105KAT2A</field>
+      </fields>
+      <libsource lib="1uF" part="0603ZD105KAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCEE5F0</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>10K0402:CRCW040210K0FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+        <field name="mnf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="10K0402" part="CRCW040210K0FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD187FB</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100K</value>
+      <footprint>100K:CRCW0402100KFKED</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100KFKED</field>
+        <field name="mnf#">CRCW0402100KFKED</field>
+      </fields>
+      <libsource lib="100K" part="CRCW0402100KFKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD19EAA</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>Taiyo</value>
+      <footprint>TAIYO_YUDEN_LMK107BJ475KA-T:TAIYO_YUDEN_LMK107BJ475KA-T_0</footprint>
+      <fields>
+        <field name="manf#">CL10A475KP8NNNC</field>
+        <field name="mnf#">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="TAIYO_YUDEN_LMK107BJ475KA-T" part="TAIYO_YUDEN_LMK107BJ475KA-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD26EAB</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>TAIYO_YUDEN_LMK107BJ475KA-T</value>
+      <footprint>TAIYO_YUDEN_LMK107BJ475KA-T:TAIYO_YUDEN_LMK107BJ475KA-T_0</footprint>
+      <fields>
+        <field name="manf#">CL10A475KP8NNNC</field>
+        <field name="mnf#">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="TAIYO_YUDEN_LMK107BJ475KA-T" part="TAIYO_YUDEN_LMK107BJ475KA-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD270CE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>1uF:0603ZD105KAT2A</footprint>
+      <fields>
+        <field name="manf#">0603ZD105KAT2A</field>
+        <field name="mnf#">0603ZD105KAT2A</field>
+      </fields>
+      <libsource lib="1uF" part="0603ZD105KAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD3EEE1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="100nf" part="C0402C104K4RACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD40C6E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="100nf" part="C0402C104K4RACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD427E3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>TAIYO_YUDEN_LMK107BJ475KA-T</value>
+      <footprint>TAIYO_YUDEN_LMK107BJ475KA-T:TAIYO_YUDEN_LMK107BJ475KA-T_0</footprint>
+      <fields>
+        <field name="manf#">CL10A475KP8NNNC</field>
+        <field name="mnf#">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="TAIYO_YUDEN_LMK107BJ475KA-T" part="TAIYO_YUDEN_LMK107BJ475KA-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4DCAA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>10nF:C0402C103J3RACTU</footprint>
+      <fields>
+        <field name="manf#">C0402C103J3RACTU</field>
+        <field name="mnf#">C0402C103J3RACTU</field>
+      </fields>
+      <libsource lib="10nF" part="C0402C103J3RACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD5A1F8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>VISHAY_CRCW040222R0FKED</value>
+      <footprint>22r:VISHAY_CRCW040222R0FKED_0</footprint>
+      <fields>
+        <field name="manf#">MCMR04X22R0FTL</field>
+        <field name="mnf#">MCMR04X22R0FTL</field>
+      </fields>
+      <libsource lib="22r" part="VISHAY_CRCW040222R0FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD81D39</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>VISHAY_CRCW040222R0FKED</value>
+      <footprint>22r:VISHAY_CRCW040222R0FKED_0</footprint>
+      <fields>
+        <field name="manf#">MCMR04X22R0FTL</field>
+        <field name="mnf#">MCMR04X22R0FTL</field>
+      </fields>
+      <libsource lib="22r" part="VISHAY_CRCW040222R0FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD81E35</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>VISHAY_CRCW040222R0FKED</value>
+      <footprint>22r:VISHAY_CRCW040222R0FKED_0</footprint>
+      <fields>
+        <field name="manf#">MCMR04X22R0FTL</field>
+        <field name="mnf#">MCMR04X22R0FTL</field>
+      </fields>
+      <libsource lib="22r" part="VISHAY_CRCW040222R0FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD81ED4</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>7V16000MAAET</value>
+      <footprint>TXC-7V-16.000MAAE-T:OSCCC500X320X105N</footprint>
+      <datasheet>SMD-4 TXC</datasheet>
+      <fields>
+        <field name="Field4">Crystal 16MHz ?30ppm _Tol_ ?30ppm _Stability_ 12pF FUND 100Ohm 4-Pin SMD T/R</field>
+        <field name="Field5">7V-16.000MAAE-T</field>
+        <field name="Field6">None</field>
+        <field name="Field7">TXC</field>
+        <field name="Field8">Unavailable</field>
+        <field name="manf#">7V-16.000MAAE-T</field>
+        <field name="mnf#">7V16000MAAET</field>
+      </fields>
+      <libsource lib="TXC-7V-16.000MAAE-T" part="7V-16.000MAAE-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD93688</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22pF</value>
+      <footprint>22pf_GRM1555C1H220JA01D:CAPC1005X55N</footprint>
+      <datasheet>0402 Murata</datasheet>
+      <fields>
+        <field name="Field4">0402 22pF 50V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor</field>
+        <field name="Field5">GRM1555C1H220JA01D</field>
+        <field name="Field6">None</field>
+        <field name="Field7">Murata</field>
+        <field name="Field8">Unavailable</field>
+        <field name="manf#">GRM1555C1H220JA01D</field>
+        <field name="mnf#">GRM1555C1H220JA01D</field>
+      </fields>
+      <libsource lib="22pf_GRM1555C1H220JA01D" part="GRM1555C1H220JA01D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDAB652</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>22pf_GRM1555C1H220JA01D:CAPC1005X55N</footprint>
+      <datasheet>0402 Murata</datasheet>
+      <fields>
+        <field name="Field4">0402 22pF 50V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor</field>
+        <field name="Field5">GRM1555C1H220JA01D</field>
+        <field name="Field6">None</field>
+        <field name="Field7">Murata</field>
+        <field name="Field8">Unavailable</field>
+        <field name="manf#">GRM1555C1H220JA01D</field>
+        <field name="mnf#">GRM1555C1H220JA01D</field>
+      </fields>
+      <libsource lib="22pf_GRM1555C1H220JA01D" part="GRM1555C1H220JA01D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDAB751</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>100K:CRCW0402100KFKED</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100KFKED</field>
+        <field name="mnf#">CRCW0402100KFKED</field>
+      </fields>
+      <libsource lib="100K" part="CRCW0402100KFKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE0A281</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>100K:CRCW0402100KFKED</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100KFKED</field>
+        <field name="mnf#">CRCW0402100KFKED</field>
+      </fields>
+      <libsource lib="100K" part="CRCW0402100KFKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF60D09</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="100nf" part="C0402C104K4RACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF60EAB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>PD15-22C_TR8</value>
+      <footprint>digikey-footprints:SMD-4_3.3x2.8_PD15-22C_TR8</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22C_TR8.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22C_TR8.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/everlight-electronics-co-ltd/PD15-22C-TR8/1080-1367-1-ND/2676101</field>
+        <field name="Description">PHOTODIODE PIN IR CLEAR FLAT SMD</field>
+        <field name="Digi-Key_PN">1080-1367-1-ND</field>
+        <field name="Family">Optical Sensors - Photodiodes</field>
+        <field name="MPN">PD15-22C/TR8</field>
+        <field name="Manufacturer">Everlight Electronics Co Ltd</field>
+        <field name="Status">Active</field>
+        <field name="manf#">PD15-22C/TR8</field>
+        <field name="mnf#">PD1522CTR8</field>
+      </fields>
+      <libsource lib="" part="PD15-22C_TR8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C05799D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>PD15-22C_TR8</value>
+      <footprint>digikey-footprints:SMD-4_3.3x2.8_PD15-22C_TR8</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22C_TR8.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22C_TR8.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/everlight-electronics-co-ltd/PD15-22C-TR8/1080-1367-1-ND/2676101</field>
+        <field name="Description">PHOTODIODE PIN IR CLEAR FLAT SMD</field>
+        <field name="Digi-Key_PN">1080-1367-1-ND</field>
+        <field name="Family">Optical Sensors - Photodiodes</field>
+        <field name="MPN">PD15-22C/TR8</field>
+        <field name="Manufacturer">Everlight Electronics Co Ltd</field>
+        <field name="Status">Active</field>
+        <field name="manf#">PD15-22C/TR8</field>
+        <field name="mnf#">PD1522CTR8</field>
+      </fields>
+      <libsource lib="" part="PD15-22C_TR8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C057B48</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT3904LT1G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBT3904LT1G/MMBT3904LT1GOSCT-ND/1139813</field>
+        <field name="Description">TRANS NPN 40V 0.2A SOT23</field>
+        <field name="Digi-Key_PN">MMBT3904LT1GOSCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+        <field name="manf#">MMBT3904LT1G</field>
+        <field name="mnf#">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="" part="MMBT3904LT1G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C062484</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT3904LT1G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBT3904LT1G/MMBT3904LT1GOSCT-ND/1139813</field>
+        <field name="Description">TRANS NPN 40V 0.2A SOT23</field>
+        <field name="Digi-Key_PN">MMBT3904LT1GOSCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+        <field name="manf#">MMBT3904LT1G</field>
+        <field name="mnf#">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="" part="MMBT3904LT1G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C062642</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904LT1G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBT3904LT1G/MMBT3904LT1GOSCT-ND/1139813</field>
+        <field name="Description">TRANS NPN 40V 0.2A SOT23</field>
+        <field name="Digi-Key_PN">MMBT3904LT1GOSCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+        <field name="manf#">MMBT3904LT1G</field>
+        <field name="mnf#">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="" part="MMBT3904LT1G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0627E1</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3904LT1G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBT3904LT1G/MMBT3904LT1GOSCT-ND/1139813</field>
+        <field name="Description">TRANS NPN 40V 0.2A SOT23</field>
+        <field name="Digi-Key_PN">MMBT3904LT1GOSCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+        <field name="manf#">MMBT3904LT1G</field>
+        <field name="mnf#">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="" part="MMBT3904LT1G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C06290C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1.5M</value>
+      <footprint>1.5M:CRCW04021M50FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW04021M50FKED</field>
+        <field name="mnf#">CRCW04021M50FKED</field>
+      </fields>
+      <libsource lib="1.5M" part="CRCW04021M50FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C072947</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1.5M</value>
+      <footprint>1.5M:CRCW04021M50FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW04021M50FKED</field>
+        <field name="mnf#">CRCW04021M50FKED</field>
+      </fields>
+      <libsource lib="1.5M" part="CRCW04021M50FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C072A1C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>560K</value>
+      <footprint>560K:RC0402FR-07560KL</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-07560KL</field>
+        <field name="mnf#">RC0402FR-07560KL</field>
+      </fields>
+      <libsource lib="560K" part="RC0402FR-07560KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0D74C3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>560K</value>
+      <footprint>560K:RC0402FR-07560KL</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-07560KL</field>
+        <field name="mnf#">RC0402FR-07560KL</field>
+      </fields>
+      <libsource lib="560K" part="RC0402FR-07560KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0D7595</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>100K:CRCW0402100KFKED</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100KFKED</field>
+        <field name="mnf#">CRCW0402100KFKED</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100K_CRCW0402100KFKED-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0F3CDA</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>100K:CRCW0402100KFKED</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100KFKED</field>
+        <field name="mnf#">CRCW0402100KFKED</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100K_CRCW0402100KFKED-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0F9A32</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SMLVN6RGB1W1</value>
+      <footprint>SMLVN6RGB1W1:LED310X280X60-6N</footprint>
+      <datasheet>SMD-6 Rohm</datasheet>
+      <fields>
+        <field name="Field4">846-1187-1-ND</field>
+        <field name="Field5">LED Tri-Color Blue/Green/Red Chip LED 6-Pin 1411 T/R</field>
+        <field name="Field6">SMLVN6RGB1W1</field>
+        <field name="Field7">Rohm</field>
+        <field name="Field8">https://www.digikey.com/product-detail/en/rohm-semiconductor/SMLVN6RGB1W1/846-1187-1-ND/5053804?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="manf#">SMLVN6RGB1W1</field>
+        <field name="mnf#">SMLVN6RGB1W1</field>
+      </fields>
+      <libsource lib="SMLVN6RGB1W1" part="SMLVN6RGB1W1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1560B4</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>22.6R</value>
+      <footprint>22_6R:ERJ-2RKF22R6X</footprint>
+      <fields>
+        <field name="manf#">ERJ-2RKF22R6X</field>
+        <field name="mnf#">ERJ2RKF22R6X</field>
+      </fields>
+      <libsource lib="22_6R" part="ERJ-2RKF22R6X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C182D29</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>130R</value>
+      <footprint>130R:ERJ-2RKF1300X</footprint>
+      <fields>
+        <field name="manf#">RVC0402FT130K</field>
+        <field name="mnf#">RVC0402FT130K</field>
+      </fields>
+      <libsource lib="130R" part="ERJ-2RKF1300X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C19CDCA</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>24.9R</value>
+      <footprint>24.9R:ERJ-2RKF24R9X</footprint>
+      <fields>
+        <field name="manf#">ERJ-2RKF24R9X</field>
+        <field name="mnf#">ERJ2RKF24R9X</field>
+      </fields>
+      <libsource lib="24.9R" part="ERJ-2RKF24R9X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C19D6F1</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AT42QT1070MMHCTND</value>
+      <footprint>vq:VQFN_20PAD</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="manf#">AT42QT1070-MMHR</field>
+        <field name="mnf#">AT42QT1070MMHR</field>
+      </fields>
+      <libsource lib="AT42QT1070-MMHCT-ND" part="AT42QT1070-MMHCT-ND" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2F3CED</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100nf_C0402C104K4RACTU-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2F4983</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100K</value>
+      <footprint>100K:CRCW0402100KFKED</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100KFKED</field>
+        <field name="mnf#">CRCW0402100KFKED</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100K_CRCW0402100KFKED-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C31AEF0</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>10K0402:CRCW040210K0FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+        <field name="mnf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="10K0402_CRCW040210K0FKED-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C342DAE</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>10K0402:CRCW040210K0FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+        <field name="mnf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="10K0402_CRCW040210K0FKED-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C342EA4</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>10K0402:CRCW040210K0FKED</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+        <field name="mnf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="10K0402_CRCW040210K0FKED-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C342F96</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>MOLEX781710003</value>
+      <footprint>MOLEX_78171-0003:MOLEX_78171-0003_0</footprint>
+      <fields>
+        <field name="manf#">78171-0003</field>
+        <field name="mnf#">781710003</field>
+      </fields>
+      <libsource lib="MOLEX_78171-0003" part="MOLEX_78171-0003" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3A7A3F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>NRF24L01PR7</value>
+      <footprint>digikey-footprints:QFN-20-1EP_4x4mm_RevA</footprint>
+      <datasheet>http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf</datasheet>
+      <fields>
+        <field name="Category">RF/IF and RFID</field>
+        <field name="DK_Datasheet_Link">http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/nordic-semiconductor-asa/NRF24L01P-R7/1490-1033-1-ND/4626401</field>
+        <field name="Description">IC RF TXRX ISM&gt;1GHZ 20-VFQFN</field>
+        <field name="Digi-Key_PN">1490-1033-1-ND</field>
+        <field name="Family">RF Transceiver ICs</field>
+        <field name="MPN">NRF24L01P-R7</field>
+        <field name="Manufacturer">Nordic Semiconductor ASA</field>
+        <field name="Status">Active</field>
+        <field name="manf#">NRF24L01P-R7</field>
+        <field name="mnf#">NRF24L01PR7</field>
+      </fields>
+      <libsource lib="" part="NRF24L01P-R7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C418287</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100nf_C0402C104K4RACTU-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C46BB4C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100nf_C0402C104K4RACTU-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C46BC7E</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10nF</value>
+      <footprint>10nF:C0402C103J3RACTU</footprint>
+      <fields>
+        <field name="manf#">C0402C103J3RACTU</field>
+        <field name="mnf#">C0402C103J3RACTU</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100nf_C0402C104K4RACTU-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C46BD7C</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">C0402C102K5RACTU</field>
+        <field name="mnf#">C0402C102K5RACTU</field>
+      </fields>
+      <libsource lib="BotSchematic-rescue" part="100nf_C0402C104K4RACTU-BotSchematic-cache" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C46BE82</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>100nf:C0402C104K4RACTU</footprint>
+      <fields>
+        <field name="manf#">LMK107BJ475KA-T</field>
+        <field name="mnf#">LMK107BJ475KAT</field>
+      </fields>
+      <libsource lib="100nf" part="C0402C104K4RACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCE52B2</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>33nF</value>
+      <footprint>33nF:CAPC1005X55N</footprint>
+      <datasheet>0402 TDK</datasheet>
+      <fields>
+        <field name="Field4">TDK</field>
+        <field name="Field5">Eia Case Size: 0402, Voltage: 50, Cap Value: 33000, Tol: +/-10%, Thickness: 0.50 ± 0.05</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">C1005X7R1H333K050BB</field>
+        <field name="Field8">None</field>
+        <field name="manf#">CGA2B3X7R1H333K050BB</field>
+        <field name="mnf#">CGA2B3X7R1H333K050BB</field>
+      </fields>
+      <libsource lib="33nF" part="C1005X7R1H333K050BB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7B126D</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>22K</value>
+      <footprint>22K:RESC1005X40N</footprint>
+      <datasheet>0402 Vishay</datasheet>
+      <fields>
+        <field name="Field4">Vishay</field>
+        <field name="Field5">CRCW Series 0402 0.063 W 22 kOhm ±1 % ±100 ppm/K SMT Thick Film Chip Resistor</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">CRCW040222K0FKED</field>
+        <field name="Field8">None</field>
+        <field name="manf#">CRCW040222K0FKED</field>
+        <field name="mnf#">CRCW040222K0FKED</field>
+      </fields>
+      <libsource lib="22k" part="CRCW040222K0FKED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7FBAB0</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>10uF:CAPC1608X9N</footprint>
+      <datasheet>0603 Murata</datasheet>
+      <fields>
+        <field name="Field4">Multilayer Ceramic Capacitor, GRM Series, 10 F, 20%, X5R, 10 V, 0603 [1608 Metric]</field>
+        <field name="Field5">GRM188R61A106ME69D</field>
+        <field name="Field6">None</field>
+        <field name="Field7">Murata</field>
+        <field name="Field8">Unavailable</field>
+        <field name="manf#">GRM188R61A106ME9D</field>
+        <field name="mnf#">GRM188R61A106ME9D</field>
+      </fields>
+      <libsource lib="10uF" part="GRM188R61A106ME69D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C87B1FB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F051C8U6</value>
+      <footprint>STM32F051C8U6:QFN50P700X700X65-49N-D</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1792127.pdf?_ga=2.155521403.1112476910.1541102294-1902165978.1539975467&amp;_gac=1.181487317.1541104119.CjwKCAjwyOreBRAYEiwAR2mSkrqxDBWSxDo3K2qn5v8ApsKwSFJXWQQSlKb4sHqbOIvjLgr426e8yxoCCUEQAvD_BwE</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/stmicroelectronics-stm32f051c8u6/70520626/</field>
+        <field name="Allied_Number">70520626</field>
+        <field name="Arrow Part Number">STM32F051C8U6</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/stm32f051c8u6/stmicroelectronics</field>
+        <field name="Description">STM32F051C8U6</field>
+        <field name="Height">0.65</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">STM32F051C8U6</field>
+        <field name="RS Part Number">7925931P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925931P</field>
+        <field name="manf#">STM32F051C8U6</field>
+        <field name="mnf#">STM32F051C8U6</field>
+      </fields>
+      <libsource lib="STM32F051C8U6" part="STM32F051C8U6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCF00C2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MOLEX781710002</value>
+      <footprint>MOLEX_78171-0002:MOLEX_78171-0002_0</footprint>
+      <fields>
+        <field name="manf#">78171-0002</field>
+        <field name="mnf#">781710002</field>
+      </fields>
+      <libsource lib="MOLEX_78171-0002" part="MOLEX_78171-0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC482</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>62401621722</value>
+      <footprint>16pos_2mm_RA:0877601616</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/molex-llc/0877601616/WM18618-ND/662457</datasheet>
+      <fields>
+        <field name="Field4">None</field>
+        <field name="Field5">None</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">0877601616</field>
+        <field name="Field8">Conn Headr 16pos 2mm r/a</field>
+        <field name="manf#">0877601616</field>
+        <field name="mnf#">0877601616</field>
+      </fields>
+      <libsource lib="16pos2mmRA" part="0877601616" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD6A29F</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MCP73831T2ACIOT</value>
+      <footprint>MCP:MCP73831T-2ACI&amp;slash_OT</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="manf#">MCP73831T-2ACI/OT</field>
+        <field name="mnf#">MCP73831T2ACIOT</field>
+      </fields>
+      <libsource lib="MCP" part="MCP73831T-2ACI_OT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD114D6</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>A316DA2SV71</value>
+      <footprint>A13:A13</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/A3-16DA-2SV-71/H10966-ND/1033093</datasheet>
+      <fields>
+        <field name="Digikey/octopart">https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/A3-16DA-2SV-71/H10966-ND/1033093</field>
+        <field name="manf#">A3-16DA-2SV(71)</field>
+        <field name="mnf#">A316DA2SV71</field>
+      </fields>
+      <libsource lib="16pos_2mm_SMD" part="A3-16DA-2SV(71)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD2DB55</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ADP122ACPZ33R7</value>
+      <footprint>ADP122ACPZ-3.3-R7:SON65P200X200X60-7N-D</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/ADP122_123.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ADP122ACPZ-3.3-R7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/adp122acpz-3.3-r7/analog-devices</field>
+        <field name="Description">Analog Devices ADP122ACPZ-3.3-R7, LDO Regulator, 300mA, 3.3 V, 1%, 2.3  5.5 Vin 6-Pin, LFCSP UD</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">ADP122ACPZ-3.3-R7</field>
+        <field name="RS Part Number">1609822</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1609822</field>
+        <field name="manf#">ADP122ACPZ-3.3-R7</field>
+        <field name="mnf#">ADP122ACPZ33R7</field>
+      </fields>
+      <libsource lib="ADP122ACPZ-3.3-R7" part="ADP122ACPZ-3.3-R7" description="Analog Devices ADP122ACPZ-3.3-R7, LDO Regulator, 300mA, 3.3 V, 1%, 2.3  5.5 Vin 6-Pin, LFCSP UD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCEAE74</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>2450AT18D0100E</value>
+      <footprint>2450AT18D0100E:DFN320X160X120-4RN</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/611/2450AT18D0100-1130385.pdf</datasheet>
+      <fields>
+        <field name="Field4">7 Inch Reel / 2.4 GHZ SMD ANTENNA RESILIANT</field>
+        <field name="Field5">https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AT18D0100E/712-1573-1-ND/4770712?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field6">None</field>
+        <field name="Field7">2450AT18D0100E</field>
+        <field name="Field8">712-1573-1-ND</field>
+        <field name="manf#">2450AT18D0100E</field>
+        <field name="mnf#">2450AT18D0100E</field>
+      </fields>
+      <libsource lib="2450AT18D0100E" part="2450AT18D0100E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A00EE</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>A316DA2SV71</value>
+      <footprint>A13:A13_1</footprint>
+      <fields>
+        <field name="manf#">A3-16DA-2SV(71)</field>
+        <field name="mnf#">A316DA2SV71</field>
+      </fields>
+      <libsource lib="16pos2mmRA" part="0877601616" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9C0D83</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>0877601616</value>
+      <footprint>16pos2mmRA:62401621722</footprint>
+      <datasheet>Wurth Electronics</datasheet>
+      <fields>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">62401621722</field>
+        <field name="Field8">Conn Headr 16pos 2mm r/a t/h</field>
+        <field name="datashee">https://www.molex.com/pdm_docs/sd/877582816_sd.pdf</field>
+        <field name="link">https://www.digikey.com/product-detail/en/0877581616/WM18839-ND/674598?utm_campaign=buynow&amp;WT.z_cid=ref_octopart_dkc_buynow&amp;utm_medium=aggregator&amp;curr=usd&amp;site=us&amp;utm_source=octopart</field>
+        <field name="manf#">0877581616</field>
+        <field name="mnf#">0877581616</field>
+      </fields>
+      <libsource lib="16pos2mmRA" part="0877601616" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA23590</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>A3901SEJTRT</value>
+      <footprint>A3901SEJTR-T:DFN300X300X75-11N</footprint>
+      <datasheet>file:///Users/calebcover/Documents/GitHub/ZooidSwarm_Baduk-Go-Weiqi_Fork/A3901-Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Field4">Allegro</field>
+        <field name="Field5">Dual Full Bridge Low Voltage Motor Driver 10-Pin DFN EP T/R</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">A3901SEJTR-T</field>
+        <field name="Field8">None</field>
+        <field name="manf#">A3901SEJTR-T</field>
+        <field name="mnf#">A3901SEJTRT</field>
+      </fields>
+      <libsource lib="A3901SEJTR-T" part="A3901SEJTR-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E9B4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="dk_Optical-Sensors-Photodiodes:PD15-22C_TR8">
+      <fields>
+        <field name="Reference">PV</field>
+        <field name="Value">dk_Optical-Sensors-Photodiodes:PD15-22C_TR8</field>
+        <field name="Footprint">digikey-footprints:SMD-4_3.3x2.8_PD15-22C_TR8</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22C_TR8.pdf</field>
+        <field name="Digi-Key_PN">1080-1367-1-ND</field>
+        <field name="MPN">PD15-22C/TR8</field>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="Family">Optical Sensors - Photodiodes</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22C_TR8.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/everlight-electronics-co-ltd/PD15-22C-TR8/1080-1367-1-ND/2676101</field>
+        <field name="Description">PHOTODIODE PIN IR CLEAR FLAT SMD</field>
+        <field name="Manufacturer">Everlight Electronics Co Ltd</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="passive"/>
+        <pin num="K" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="dk_RF-Transceiver-ICs:NRF24L01P-R7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">dk_RF-Transceiver-ICs:NRF24L01P-R7</field>
+        <field name="Footprint">digikey-footprints:QFN-20-1EP_4x4mm_RevA</field>
+        <field name="Datasheet">http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf</field>
+        <field name="Digi-Key_PN">1490-1033-1-ND</field>
+        <field name="MPN">NRF24L01P-R7</field>
+        <field name="Category">RF/IF and RFID</field>
+        <field name="Family">RF Transceiver ICs</field>
+        <field name="DK_Datasheet_Link">http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/nordic-semiconductor-asa/NRF24L01P-R7/1490-1033-1-ND/4626401</field>
+        <field name="Description">IC RF TXRX ISM&gt;1GHZ 20-VFQFN</field>
+        <field name="Manufacturer">Nordic Semiconductor ASA</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE" type="input"/>
+        <pin num="2" name="CSN" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="MISO" type="output"/>
+        <pin num="6" name="IRQ" type="output"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="XC2" type="NotConnected"/>
+        <pin num="10" name="XC1" type="input"/>
+        <pin num="11" name="VDD_PA" type="power_out"/>
+        <pin num="12" name="ANT1" type="output"/>
+        <pin num="13" name="ANT2" type="output"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="VDD" type="power_in"/>
+        <pin num="16" name="IREF" type="input"/>
+        <pin num="17" name="VSS" type="power_in"/>
+        <pin num="18" name="VDD" type="power_in"/>
+        <pin num="19" name="DVDD" type="power_out"/>
+        <pin num="20" name="VSS" type="power_in"/>
+        <pin num="21" name="EP" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="dk_Transistors-Bipolar-BJT-Single:MMBT3904LT1G">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">dk_Transistors-Bipolar-BJT-Single:MMBT3904LT1G</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</field>
+        <field name="Digi-Key_PN">MMBT3904LT1GOSCT-ND</field>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBT3904LT1G/MMBT3904LT1GOSCT-ND/1139813</field>
+        <field name="Description">TRANS NPN 40V 0.2A SOT23</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1.5M" part="CRCW04021M50FKED">
+      <footprints>
+        <fp>RES_CRCW_0402</fp>
+        <fp>RES_CRCW_0402-M</fp>
+        <fp>RES_CRCW_0402-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">CRCW04021M50FKED</field>
+        <field name="Footprint">RES_CRCW_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="100K" part="CRCW0402100KFKED">
+      <footprints>
+        <fp>RES_CRCW_0402</fp>
+        <fp>RES_CRCW_0402-M</fp>
+        <fp>RES_CRCW_0402-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">CRCW0402100KFKED</field>
+        <field name="Footprint">RES_CRCW_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="100nf" part="C0402C104K4RACTU">
+      <footprints>
+        <fp>CC0402N</fp>
+        <fp>CC0402N-M</fp>
+        <fp>CC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0402C104K4RACTU</field>
+        <field name="Footprint">CC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="10K0402" part="CRCW040210K0FKED">
+      <footprints>
+        <fp>RES_CRCW_0402</fp>
+        <fp>RES_CRCW_0402-M</fp>
+        <fp>RES_CRCW_0402-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">CRCW040210K0FKED</field>
+        <field name="Footprint">RES_CRCW_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="10nF" part="C0402C103J3RACTU">
+      <footprints>
+        <fp>CC0402N</fp>
+        <fp>CC0402N-M</fp>
+        <fp>CC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0402C103J3RACTU</field>
+        <field name="Footprint">CC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="10uF" part="GRM188R61A106ME69D">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM188R61A106ME69D</field>
+        <field name="Footprint">CAPC1608X9N</field>
+        <field name="Datasheet">0603 Murata</field>
+        <field name="Field4">Multilayer Ceramic Capacitor, GRM Series, 10 F, 20%, X5R, 10 V, 0603 [1608 Metric]</field>
+        <field name="Field5">GRM188R61A106ME69D</field>
+        <field name="Field6">None</field>
+        <field name="Field7">Murata</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="130R" part="ERJ-2RKF1300X">
+      <footprints>
+        <fp>RC0402N</fp>
+        <fp>RC0402N-M</fp>
+        <fp>RC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-2RKF1300X</field>
+        <field name="Footprint">RC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="16pos2mmRA" part="0877601616">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">0877601616</field>
+        <field name="Footprint">62401621722</field>
+        <field name="Datasheet">Wurth Electronics</field>
+        <field name="Field4">None</field>
+        <field name="Field5">None</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">62401621722</field>
+        <field name="Field8">Conn Headr 16pos 2mm r/a t/h</field>
+      </fields>
+      <pins>
+        <pin num="1" name="15" type="passive"/>
+        <pin num="2" name="16" type="passive"/>
+        <pin num="3" name="13" type="passive"/>
+        <pin num="4" name="14" type="passive"/>
+        <pin num="5" name="11" type="passive"/>
+        <pin num="6" name="12" type="passive"/>
+        <pin num="7" name="9" type="passive"/>
+        <pin num="8" name="10" type="passive"/>
+        <pin num="9" name="7" type="passive"/>
+        <pin num="10" name="8" type="passive"/>
+        <pin num="11" name="5" type="passive"/>
+        <pin num="12" name="6" type="passive"/>
+        <pin num="13" name="3" type="passive"/>
+        <pin num="14" name="4" type="passive"/>
+        <pin num="15" name="1" type="passive"/>
+        <pin num="16" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="16pos_2mm_SMD" part="A3-16DA-2SV(71)">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">A3-16DA-2SV(71)</field>
+        <field name="Footprint">A3-16DA-2SV(71)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+        <pin num="9" name="9" type="BiDi"/>
+        <pin num="10" name="10" type="BiDi"/>
+        <pin num="11" name="11" type="BiDi"/>
+        <pin num="12" name="12" type="BiDi"/>
+        <pin num="13" name="13" type="BiDi"/>
+        <pin num="14" name="14" type="BiDi"/>
+        <pin num="15" name="15" type="BiDi"/>
+        <pin num="16" name="16" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="1uF" part="0603ZD105KAT2A">
+      <footprints>
+        <fp>0603</fp>
+        <fp>0603-M</fp>
+        <fp>0603-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0603ZD105KAT2A</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="2.2nF_X7R_50V" part="C0402C222K5RACTU">
+      <footprints>
+        <fp>CC0402N</fp>
+        <fp>CC0402N-M</fp>
+        <fp>CC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0402C222K5RACTU</field>
+        <field name="Footprint">CC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="22_6R" part="ERJ-2RKF22R6X">
+      <footprints>
+        <fp>RC0402N</fp>
+        <fp>RC0402N-M</fp>
+        <fp>RC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-2RKF22R6X</field>
+        <field name="Footprint">RC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="22k" part="CRCW040222K0FKED">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">CRCW040222K0FKED</field>
+        <field name="Footprint">RESC1005X40N</field>
+        <field name="Datasheet">0402 Vishay</field>
+        <field name="Field4">Vishay</field>
+        <field name="Field5">CRCW Series 0402 0.063 W 22 kOhm ±1 % ±100 ppm/K SMT Thick Film Chip Resistor</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">CRCW040222K0FKED</field>
+        <field name="Field8">None</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="22pf_GRM1555C1H220JA01D" part="GRM1555C1H220JA01D">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM1555C1H220JA01D</field>
+        <field name="Footprint">CAPC1005X55N</field>
+        <field name="Datasheet">0402 Murata</field>
+        <field name="Field4">0402 22pF 50V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor</field>
+        <field name="Field5">GRM1555C1H220JA01D</field>
+        <field name="Field6">None</field>
+        <field name="Field7">Murata</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="22r" part="VISHAY_CRCW040222R0FKED">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">VISHAY_CRCW040222R0FKED</field>
+        <field name="Footprint">VISHAY_CRCW040222R0FKED_0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="24.9R" part="ERJ-2RKF24R9X">
+      <footprints>
+        <fp>RC0402N</fp>
+        <fp>RC0402N-M</fp>
+        <fp>RC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-2RKF24R9X</field>
+        <field name="Footprint">RC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="2450AT18D0100E" part="2450AT18D0100E">
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">2450AT18D0100E</field>
+        <field name="Footprint">DFN320X160X120-4RN</field>
+        <field name="Datasheet">Johanson Technology</field>
+        <field name="Field4">7 Inch Reel / 2.4 GHZ SMD ANTENNA RESILIANT</field>
+        <field name="Field5">https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AT18D0100E/712-1573-1-ND/4770712?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field6">None</field>
+        <field name="Field7">2450AT18D0100E</field>
+        <field name="Field8">712-1573-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FEED" type="input"/>
+        <pin num="2" name="GND@1" type="power_in"/>
+        <pin num="3" name="GND@2" type="power_in"/>
+        <pin num="4" name="GND@3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="33nF" part="C1005X7R1H333K050BB">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C1005X7R1H333K050BB</field>
+        <field name="Footprint">CAPC1005X55N</field>
+        <field name="Datasheet">0402 TDK</field>
+        <field name="Field4">TDK</field>
+        <field name="Field5">Eia Case Size: 0402, Voltage: 50, Cap Value: 33000, Tol: +/-10%, Thickness: 0.50 ± 0.05</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">C1005X7R1H333K050BB</field>
+        <field name="Field8">None</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="560K" part="RC0402FR-07560KL">
+      <footprints>
+        <fp>RC0402N</fp>
+        <fp>RC0402N-M</fp>
+        <fp>RC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-07560KL</field>
+        <field name="Footprint">RC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="A3901SEJTR-T" part="A3901SEJTR-T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A3901SEJTR-T</field>
+        <field name="Footprint">DFN300X300X75-11N</field>
+        <field name="Datasheet">DFN-10 Allegro MicroSystems LLC</field>
+        <field name="Field4">Allegro</field>
+        <field name="Field5">Dual Full Bridge Low Voltage Motor Driver 10-Pin DFN EP T/R</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">A3901SEJTR-T</field>
+        <field name="Field8">None</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="IN2" type="input"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="IN3" type="input"/>
+        <pin num="5" name="IN4" type="input"/>
+        <pin num="6" name="OUT4" type="output"/>
+        <pin num="7" name="OUT3" type="output"/>
+        <pin num="8" name="VBB" type="power_in"/>
+        <pin num="9" name="OUT2" type="output"/>
+        <pin num="10" name="OUT1" type="output"/>
+        <pin num="11" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADP122ACPZ-3.3-R7" part="ADP122ACPZ-3.3-R7">
+      <description>Analog Devices ADP122ACPZ-3.3-R7, LDO Regulator, 300mA, 3.3 V, 1%, 2.3  5.5 Vin 6-Pin, LFCSP UD</description>
+      <docs>http://www.analog.com/media/en/technical-documentation/data-sheets/ADP122_123.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADP122ACPZ-3.3-R7</field>
+        <field name="Footprint">SON65P200X200X60-7N-D</field>
+        <field name="Datasheet">http://www.analog.com/media/en/technical-documentation/data-sheets/ADP122_123.pdf</field>
+        <field name="Description">Analog Devices ADP122ACPZ-3.3-R7, LDO Regulator, 300mA, 3.3 V, 1%, 2.3  5.5 Vin 6-Pin, LFCSP UD</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">ADP122ACPZ-3.3-R7</field>
+        <field name="RS Part Number">1609822</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1609822</field>
+        <field name="Arrow Part Number">ADP122ACPZ-3.3-R7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/adp122acpz-3.3-r7/analog-devices</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="BiDi"/>
+        <pin num="2" name="NC_1" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="EN" type="BiDi"/>
+        <pin num="5" name="NC_2" type="BiDi"/>
+        <pin num="6" name="VIN" type="BiDi"/>
+        <pin num="7" name="EP" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="AT42QT1070-MMHCT-ND" part="AT42QT1070-MMHCT-ND">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT42QT1070-MMHCT-ND</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="KEY4" type="passive"/>
+        <pin num="2" name="KEY3" type="output"/>
+        <pin num="3" name="KEY2" type="output"/>
+        <pin num="4" name="KEY1" type="output"/>
+        <pin num="5" name="KEY0" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="VDD" type="passive"/>
+        <pin num="10" name="NC" type="passive"/>
+        <pin num="11" name="MODE" type="input"/>
+        <pin num="12" name="SDA" type="passive"/>
+        <pin num="13" name="~RESET~" type="input"/>
+        <pin num="14" name="~CHANGE~" type="passive"/>
+        <pin num="15" name="SCL" type="passive"/>
+        <pin num="16" name="KEY6" type="passive"/>
+        <pin num="17" name="KEY5" type="passive"/>
+        <pin num="18" name="NC" type="passive"/>
+        <pin num="19" name="NC" type="passive"/>
+        <pin num="20" name="NC" type="passive"/>
+        <pin num="44" name="PIN44" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BotSchematic-rescue" part="100K_CRCW0402100KFKED-BotSchematic-cache">
+      <footprints>
+        <fp>RES_CRCW_0402</fp>
+        <fp>RES_CRCW_0402-M</fp>
+        <fp>RES_CRCW_0402-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100K_CRCW0402100KFKED-BotSchematic-cache</field>
+        <field name="Footprint">RES_CRCW_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BotSchematic-rescue" part="100nf_C0402C104K4RACTU-BotSchematic-cache">
+      <footprints>
+        <fp>CC0402N</fp>
+        <fp>CC0402N-M</fp>
+        <fp>CC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nf_C0402C104K4RACTU-BotSchematic-cache</field>
+        <field name="Footprint">CC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="BotSchematic-rescue" part="10K0402_CRCW040210K0FKED-BotSchematic-cache">
+      <footprints>
+        <fp>RES_CRCW_0402</fp>
+        <fp>RES_CRCW_0402-M</fp>
+        <fp>RES_CRCW_0402-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10K0402_CRCW040210K0FKED-BotSchematic-cache</field>
+        <field name="Footprint">RES_CRCW_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="JOHANSON_2450BM14A0002T" part="JOHANSON_2450BM14A0002T">
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">JOHANSON_2450BM14A0002T</field>
+        <field name="Footprint">JOHANSON_2450BM14A0002T_0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UNBALANCED_PORT" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="1_BALANCED_PORT" type="BiDi"/>
+        <pin num="4" name="2_BALANCED_PORT" type="BiDi"/>
+        <pin num="5" name="DC_FEED+RF_GND_OR_GND" type="BiDi"/>
+        <pin num="6" name="NC" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCP" part="MCP73831T-2ACI_OT">
+      <footprints>
+        <fp>SOT-23-5_MC</fp>
+        <fp>SOT-23-5_MC-M</fp>
+        <fp>SOT-23-5_MC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831T-2ACI_OT</field>
+        <field name="Footprint">SOT-23-5_MC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="unspc"/>
+        <pin num="2" name="VSS" type="unspc"/>
+        <pin num="3" name="VBAT" type="unspc"/>
+        <pin num="4" name="VDD" type="unspc"/>
+        <pin num="5" name="PROG" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="MOLEX_78171-0002" part="MOLEX_78171-0002">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MOLEX_78171-0002</field>
+        <field name="Footprint">MOLEX_78171-0002_0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="MNT_1" type="BiDi"/>
+        <pin num="4" name="MNT_2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="MOLEX_78171-0003" part="MOLEX_78171-0003">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MOLEX_78171-0003</field>
+        <field name="Footprint">MOLEX_78171-0003_0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="MNT_1" type="BiDi"/>
+        <pin num="5" name="MNT_2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SMLVN6RGB1W1" part="SMLVN6RGB1W1">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMLVN6RGB1W1</field>
+        <field name="Footprint">LED310X280X60-6N</field>
+        <field name="Datasheet">SMD-6 Rohm</field>
+        <field name="Field4">846-1187-1-ND</field>
+        <field name="Field5">LED Tri-Color Blue/Green/Red Chip LED 6-Pin 1411 T/R</field>
+        <field name="Field6">SMLVN6RGB1W1</field>
+        <field name="Field7">Rohm</field>
+        <field name="Field8">https://www.digikey.com/product-detail/en/rohm-semiconductor/SMLVN6RGB1W1/846-1187-1-ND/5053804?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="STM32F051C8U6" part="STM32F051C8U6">
+      <docs>http://www.st.com/web/en/resource/technical/document/datasheet/DM00039193.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">STM32F051C8U6</field>
+        <field name="Footprint">QFN50P700X700X65-49N-D</field>
+        <field name="Datasheet">http://www.st.com/web/en/resource/technical/document/datasheet/DM00039193.pdf</field>
+        <field name="Height">0.65</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">STM32F051C8U6</field>
+        <field name="RS Part Number">7925931P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925931P</field>
+        <field name="Allied_Number">70520626</field>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/stmicroelectronics-stm32f051c8u6/70520626/</field>
+        <field name="Arrow Part Number">STM32F051C8U6</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/stm32f051c8u6/stmicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="BiDi"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14/OSC32_IN" type="BiDi"/>
+        <pin num="4" name="PC15/OSC32_OUT" type="BiDi"/>
+        <pin num="5" name="PF0/OSC_IN" type="BiDi"/>
+        <pin num="6" name="PF1/OSC_OUT" type="BiDi"/>
+        <pin num="7" name="NRST" type="BiDi"/>
+        <pin num="8" name="VSSA" type="BiDi"/>
+        <pin num="9" name="VDDA" type="BiDi"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS_1" type="BiDi"/>
+        <pin num="24" name="VDD_1" type="BiDi"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="PF6" type="BiDi"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="BiDi"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS_2" type="BiDi"/>
+        <pin num="48" name="VDD_2" type="BiDi"/>
+        <pin num="49" name="EXPOSEDPAD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="LSM6DS3">
+      <description>I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope</description>
+      <docs>www.st.com/resource/en/datasheet/lsm6ds3.pdf</docs>
+      <footprints>
+        <fp>LGA*3x2.5mm*P0.5mm*LayoutBorder3x4y*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM6DS3</field>
+        <field name="Footprint">Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO/SA0" type="BiDi"/>
+        <pin num="2" name="SDX" type="BiDi"/>
+        <pin num="3" name="SCX" type="input"/>
+        <pin num="4" name="INT1" type="output"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="CS" type="input"/>
+        <pin num="13" name="SCL" type="input"/>
+        <pin num="14" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="TAIYO_YUDEN_LMK107BJ475KA-T" part="TAIYO_YUDEN_LMK107BJ475KA-T">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">TAIYO_YUDEN_LMK107BJ475KA-T</field>
+        <field name="Footprint">TAIYO_YUDEN_LMK107BJ475KA-T_0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="TXC-7V-16.000MAAE-T" part="7V-16.000MAAE-T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7V-16.000MAAE-T</field>
+        <field name="Footprint">OSCCC500X320X105N</field>
+        <field name="Datasheet">SMD-4 TXC</field>
+        <field name="Field4">Crystal 16MHz ?30ppm _Tol_ ?30ppm _Stability_ 12pF FUND 100Ohm 4-Pin SMD T/R</field>
+        <field name="Field5">7V-16.000MAAE-T</field>
+        <field name="Field6">None</field>
+        <field name="Field7">TXC</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="NC-1" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="NC" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="ERJ-2GE0R00X">
+      <footprints>
+        <fp>RC0402N</fp>
+        <fp>RC0402N-M</fp>
+        <fp>RC0402N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-2GE0R00X</field>
+        <field name="Footprint">RC0402N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1.5M">
+      <uri>/Library/Application Support/kicad/Custom_Lib/1.5M/KiCAD/1.5M.lib</uri>
+    </library>
+    <library logical="100K">
+      <uri>/Library/Application Support/kicad/Custom_Lib/UL_CRCW0402100KFKED/KiCAD/100K.lib</uri>
+    </library>
+    <library logical="100nf">
+      <uri>/Library/Application Support/kicad/Custom_Lib/100nF/KiCAD/100nf.lib</uri>
+    </library>
+    <library logical="10K0402">
+      <uri>/Library/Application Support/kicad/Custom_Lib/UL_CRCW040210K0FKED/KiCAD/10K0402.lib</uri>
+    </library>
+    <library logical="10nF">
+      <uri>/Library/Application Support/kicad/Custom_Lib/10nF/KiCAD/10nF.lib</uri>
+    </library>
+    <library logical="10uF">
+      <uri>/Library/Application Support/kicad/Custom_Lib/10uF/10uF.lib</uri>
+    </library>
+    <library logical="130R">
+      <uri>/Library/Application Support/kicad/Custom_Lib/130R/KiCAD/130R.lib</uri>
+    </library>
+    <library logical="16pos2mmRA">
+      <uri>/Library/Application Support/kicad/Custom_Lib/16pos_2mm_RA/16pos2mmRA/16pos2mmRA.lib</uri>
+    </library>
+    <library logical="16pos_2mm_SMD">
+      <uri>/Library/Application Support/kicad/Custom_Lib/16pos2mm/16pos_2mm_SMD/16pos_2mm_SMD.lib</uri>
+    </library>
+    <library logical="1uF">
+      <uri>/Library/Application Support/kicad/Custom_Lib/1uF/KiCAD/1uF.lib</uri>
+    </library>
+    <library logical="2.2nF_X7R_50V">
+      <uri>/Library/Application Support/kicad/UL_C0402C222K5RACTU/KiCAD/2.2nF X7R 50V.lib</uri>
+    </library>
+    <library logical="22_6R">
+      <uri>/Library/Application Support/kicad/Custom_Lib/22_6R/KiCAD/22_6R.lib</uri>
+    </library>
+    <library logical="22k">
+      <uri>/Library/Application Support/kicad/Custom_Lib/22k/22k.lib</uri>
+    </library>
+    <library logical="22pf_GRM1555C1H220JA01D">
+      <uri>/Library/Application Support/kicad/Custom_Lib/22pf/22pf_GRM1555C1H220JA01D.lib</uri>
+    </library>
+    <library logical="22r">
+      <uri>/Library/Application Support/kicad/Custom_Lib/22r/22r.lib</uri>
+    </library>
+    <library logical="24.9R">
+      <uri>/Library/Application Support/kicad/Custom_Lib/24.9R/KiCAD/24.9R.lib</uri>
+    </library>
+    <library logical="2450AT18D0100E">
+      <uri>/Library/Application Support/kicad/Custom_Lib/Antenna/2450AT18D0100E.lib</uri>
+    </library>
+    <library logical="33nF">
+      <uri>/Library/Application Support/kicad/Custom_Lib/33nF/33nF.lib</uri>
+    </library>
+    <library logical="560K">
+      <uri>/Library/Application Support/kicad/Custom_Lib/560K/KiCAD/560K.lib</uri>
+    </library>
+    <library logical="A3901SEJTR-T">
+      <uri>/Library/Application Support/kicad/Custom_Lib/A3901SEJTR-T/A3901SEJTR-T.lib</uri>
+    </library>
+    <library logical="ADP122ACPZ-3.3-R7">
+      <uri>/Library/Application Support/kicad/Custom_Lib/LIB_ADP122ACPZ-3.3-R7/ADP122ACPZ-3.3-R7/KiCad/ADP122ACPZ-3.3-R7.lib</uri>
+    </library>
+    <library logical="AT42QT1070-MMHCT-ND">
+      <uri>/Library/Application Support/kicad/Custom_Lib/AT42QT1070-MMHCT-ND/AT42QT1070-MMHCT-ND.lib</uri>
+    </library>
+    <library logical="BotSchematic-rescue">
+      <uri>/Users/calebcover/Documents/GitHub/ZooidSwarm_Baduk-Go-Weiqi_Fork/SKINNY_PROTOTYPE/BB_Hardware/PCB/BadukBot/BotSchematic/BotSchematic-rescue.lib</uri>
+    </library>
+    <library logical="JOHANSON_2450BM14A0002T">
+      <uri>/Library/Application Support/kicad/JOHANSON_2450BM14A0002T/JOHANSON_2450BM14A0002T.lib</uri>
+    </library>
+    <library logical="MCP">
+      <uri>/Library/Application Support/kicad/Custom_Lib/UL_MCP73831T2ACIOT/KiCAD/MCP.lib</uri>
+    </library>
+    <library logical="MOLEX_78171-0002">
+      <uri>/Library/Application Support/kicad/Custom_Lib/Conn_MOLEX_78171-0002 (1)/MOLEX_78171-0002.lib</uri>
+    </library>
+    <library logical="MOLEX_78171-0003">
+      <uri>/Library/Application Support/kicad/Custom_Lib/MOLEX_78171-0003/MOLEX_78171-0003.lib</uri>
+    </library>
+    <library logical="SMLVN6RGB1W1">
+      <uri>/Library/Application Support/kicad/Custom_Lib/SMLVN6RGB1W1/SMLVN6RGB1W1.lib</uri>
+    </library>
+    <library logical="STM32F051C8U6">
+      <uri>/Library/Application Support/kicad/Custom_Lib/STM32F051C8U6/STM32F051C8U6/KiCad/STM32F051C8U6.lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/Library/Application Support/kicad/library/Sensor_Motion.lib</uri>
+    </library>
+    <library logical="TAIYO_YUDEN_LMK107BJ475KA-T">
+      <uri>/Library/Application Support/kicad/Custom_Lib/4.7uF/TAIYO_YUDEN_LMK107BJ475KA-T.lib</uri>
+    </library>
+    <library logical="TXC-7V-16.000MAAE-T">
+      <uri>/Library/Application Support/kicad/Custom_Lib/Crystal/TXC-7V-16.000MAAE-T.lib</uri>
+    </library>
+    <library logical="symbols">
+      <uri>/Library/Application Support/kicad/Custom_Lib/symbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(B1-Pad6)">
+      <node ref="B1" pin="6"/>
+    </net>
+    <net code="2" name="Net-(B1-Pad1)">
+      <node ref="B1" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="5" name="24aIMUINT">
+      <node ref="R6" pin="1"/>
+      <node ref="J12" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="7" name="26aSCL">
+      <node ref="U2" pin="13"/>
+      <node ref="U5" pin="15"/>
+      <node ref="J12" pin="6"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="8" name="25aSDA">
+      <node ref="U2" pin="14"/>
+      <node ref="U5" pin="12"/>
+      <node ref="J12" pin="5"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="9" name="21a33v">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="J12" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R22-Pad2)">
+      <node ref="U6" pin="5"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="11" name="27aCHARGING">
+      <node ref="J12" pin="7"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="13" name="SWDIO">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="15" name="NRST">
+      <node ref="R5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="16" name="SWCLK">
+      <node ref="U1" pin="37"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="18" name="MCUX116MHZ">
+      <node ref="U1" pin="5"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="19" name="MCUX216MHZ">
+      <node ref="U1" pin="6"/>
+      <node ref="C8" pin="1"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="20" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="44"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="21" name="9bIO2">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="22" name="8bIO1">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="23" name="~29bTOUCHCHG~">
+      <node ref="J13" pin="9"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="24" name="RADIOIRQ">
+      <node ref="U1" pin="38"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="25" name="CSN">
+      <node ref="U1" pin="14"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="26" name="SCK">
+      <node ref="U7" pin="3"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="27" name="MISO">
+      <node ref="U1" pin="16"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="28" name="MOSI">
+      <node ref="U7" pin="4"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="29" name="RADIO_CE">
+      <node ref="U7" pin="1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="30" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="32" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="33" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="34" name="Net-(D2-Pad6)">
+      <node ref="R18" pin="2"/>
+      <node ref="D2" pin="6"/>
+    </net>
+    <net code="35" name="Net-(D2-Pad4)">
+      <node ref="R16" pin="2"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="36" name="Net-(D2-Pad5)">
+      <node ref="R17" pin="2"/>
+      <node ref="D2" pin="5"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="41" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="42" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="43" name="~29aTOUCHCHG~">
+      <node ref="R15" pin="1"/>
+      <node ref="U5" pin="14"/>
+      <node ref="J12" pin="9"/>
+    </net>
+    <net code="44" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="45" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="46" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="47" name="Net-(U5-Pad19)">
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="48" name="Net-(U5-Pad20)">
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="49" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="50" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="51" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="52" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="54" name="Net-(R19-Pad1)">
+      <node ref="U5" pin="3"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="55" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="56" name="Net-(J2-Pad3)">
+      <node ref="R20" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="57" name="Net-(J2-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="58" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="59" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="60" name="RADIO_CLK">
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="61" name="Net-(U7-Pad9)">
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="62" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="U7" pin="19"/>
+    </net>
+    <net code="63" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="65" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="66" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="67" name="Net-(U1-Pad45)">
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="73" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="77" name="22bVBAT">
+      <node ref="J13" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="78" name="MOTORCONTROL1">
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="79" name="MOTORCONTROL2">
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="80" name="MOTORCONTROL3">
+      <node ref="U1" pin="12"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="81" name="MOTORCONTROL4">
+      <node ref="U1" pin="13"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="82" name="11bSCL">
+      <node ref="U1" pin="21"/>
+      <node ref="J13" pin="6"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="83" name="RADIOCLK">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="84" name="27bCHARGING">
+      <node ref="J13" pin="7"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="85" name="24bIMUINT">
+      <node ref="J13" pin="4"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="86" name="1b33v">
+      <node ref="U1" pin="48"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U7" pin="15"/>
+      <node ref="U7" pin="18"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U3" pin="8"/>
+      <node ref="J13" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="87" name="Net-(J11-Pad10)">
+      <node ref="J11" pin="10"/>
+    </net>
+    <net code="88" name="Net-(J11-Pad11)">
+      <node ref="J11" pin="11"/>
+    </net>
+    <net code="89" name="12bA1">
+      <node ref="J11" pin="12"/>
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="90" name="13bA2">
+      <node ref="J11" pin="13"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="91" name="14bVDDPA">
+      <node ref="J11" pin="14"/>
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="92" name="15bP41">
+      <node ref="J13" pin="8"/>
+      <node ref="J11" pin="15"/>
+    </net>
+    <net code="93" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="94" name="3bPHOTODIODE1">
+      <node ref="U1" pin="46"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="95" name="4bPHOTODIODE2">
+      <node ref="U1" pin="19"/>
+      <node ref="J11" pin="4"/>
+    </net>
+    <net code="96" name="5bRGBLED1">
+      <node ref="U1" pin="31"/>
+      <node ref="J11" pin="5"/>
+    </net>
+    <net code="97" name="6bRGBLED2">
+      <node ref="U1" pin="32"/>
+      <node ref="J11" pin="6"/>
+    </net>
+    <net code="98" name="7bRGBLED3">
+      <node ref="U1" pin="30"/>
+      <node ref="J11" pin="7"/>
+    </net>
+    <net code="99" name="Net-(J11-Pad8)">
+      <node ref="J11" pin="8"/>
+    </net>
+    <net code="100" name="Net-(J11-Pad9)">
+      <node ref="J11" pin="9"/>
+    </net>
+    <net code="101" name="23aGround">
+      <node ref="C16" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="44"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J12" pin="3"/>
+      <node ref="U5" pin="11"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="102" name="1a33v">
+      <node ref="D1" pin="K"/>
+      <node ref="D3" pin="K"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="103" name="Net-(J10-Pad10)">
+      <node ref="J10" pin="10"/>
+    </net>
+    <net code="104" name="Net-(J10-Pad11)">
+      <node ref="J10" pin="11"/>
+    </net>
+    <net code="105" name="12aA1">
+      <node ref="J10" pin="12"/>
+      <node ref="B1" pin="4"/>
+    </net>
+    <net code="106" name="13aA2">
+      <node ref="B1" pin="3"/>
+      <node ref="J10" pin="13"/>
+    </net>
+    <net code="107" name="14aVDDPA">
+      <node ref="C21" pin="1"/>
+      <node ref="J10" pin="14"/>
+      <node ref="B1" pin="5"/>
+    </net>
+    <net code="108" name="15aP41">
+      <node ref="J10" pin="15"/>
+    </net>
+    <net code="109" name="Net-(J10-Pad16)">
+      <node ref="J10" pin="16"/>
+    </net>
+    <net code="110" name="2aGND">
+      <node ref="J10" pin="2"/>
+      <node ref="B1" pin="2"/>
+      <node ref="A1" pin="4"/>
+      <node ref="A1" pin="3"/>
+      <node ref="A1" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="111" name="3aPHOTODIODE1">
+      <node ref="J10" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="112" name="4aPHOTODIODE2">
+      <node ref="J10" pin="4"/>
+      <node ref="R12" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="113" name="5aRGBLED1">
+      <node ref="R17" pin="1"/>
+      <node ref="J10" pin="5"/>
+    </net>
+    <net code="114" name="6aRGBLED2">
+      <node ref="R16" pin="1"/>
+      <node ref="J10" pin="6"/>
+    </net>
+    <net code="115" name="7aRGBLED3">
+      <node ref="R18" pin="1"/>
+      <node ref="J10" pin="7"/>
+    </net>
+    <net code="116" name="Net-(J10-Pad8)">
+      <node ref="J10" pin="8"/>
+    </net>
+    <net code="117" name="Net-(J10-Pad9)">
+      <node ref="J10" pin="9"/>
+    </net>
+    <net code="118" name="2bGND">
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U7" pin="17"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U7" pin="20"/>
+      <node ref="U7" pin="21"/>
+      <node ref="U7" pin="8"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="49"/>
+      <node ref="U1" pin="47"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J11" pin="16"/>
+    </net>
+    <net code="119" name="10bSDA">
+      <node ref="J13" pin="5"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="120" name="21a3.3v">
+      <node ref="R9" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="121" name="Net-(A1-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="122" name="Net-(J12-Pad10)">
+      <node ref="J12" pin="10"/>
+    </net>
+    <net code="123" name="Net-(J12-Pad11)">
+      <node ref="J12" pin="11"/>
+    </net>
+    <net code="124" name="Net-(J12-Pad12)">
+      <node ref="J12" pin="12"/>
+    </net>
+    <net code="125" name="Net-(J12-Pad13)">
+      <node ref="J12" pin="13"/>
+    </net>
+    <net code="126" name="Net-(J12-Pad14)">
+      <node ref="J12" pin="14"/>
+    </net>
+    <net code="127" name="Net-(J12-Pad15)">
+      <node ref="J12" pin="15"/>
+    </net>
+    <net code="128" name="Net-(J12-Pad16)">
+      <node ref="J12" pin="16"/>
+    </net>
+    <net code="129" name="Net-(J13-Pad10)">
+      <node ref="J13" pin="10"/>
+    </net>
+    <net code="130" name="Net-(J13-Pad11)">
+      <node ref="J13" pin="11"/>
+    </net>
+    <net code="131" name="Net-(J13-Pad12)">
+      <node ref="J13" pin="12"/>
+    </net>
+    <net code="132" name="Net-(J13-Pad13)">
+      <node ref="J13" pin="13"/>
+    </net>
+    <net code="133" name="Net-(J13-Pad14)">
+      <node ref="J13" pin="14"/>
+    </net>
+    <net code="134" name="Net-(J13-Pad15)">
+      <node ref="J13" pin="15"/>
+    </net>
+    <net code="135" name="Net-(J13-Pad16)">
+      <node ref="J13" pin="16"/>
+    </net>
+    <net code="136" name="22aVBAT">
+      <node ref="C12" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="137" name="28aP41">
+      <node ref="C15" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="J12" pin="8"/>
+    </net>
+    <net code="138" name="23a_Ground">
+      <node ref="C20" pin="1"/>
+    </net>
+  </nets>
+</export>
