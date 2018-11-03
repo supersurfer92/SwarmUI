@@ -1,4 +1,4 @@
-update=Thursday, October 25, 2018 at 10:23:57 PM
+update=Friday, November 02, 2018 at 11:04:53 PM
 version=1
 last_client=kicad
 [general]
@@ -34,10 +34,10 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../../../Schematics/
+PlotDirectoryName=../../../../../Images/Kicad board drawings/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1

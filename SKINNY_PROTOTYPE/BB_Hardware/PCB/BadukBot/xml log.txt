@@ -1,0 +1,16 @@
+$ kicost -i /Users/calebcover/Documents/GitHub/ZooidSwarm_Baduk-Go-Weiqi_Fork/SKINNY_PROTOTYPE/BB_Hardware/PCB/BadukBot/BotSchematic/BotSchematic.xml --debug 8 > log.txt
+Started KiCost v.1.0.3 on Darwin-16.7.0-x86_64-i386-64bit(64bit) Python 3.7.0
+# Getting from XML 'BotSchematic.xml' KiCad BoM...
+Getting authorship data...
+Getting parts library...
+Getting components...
+Traceback (most recent call last):
+File "/usr/local/bin/kicost", line 11, in <module>
+sys.exit(main())
+File "/usr/local/lib/python3.7/site-packages/kicost/__main__.py", line 257, in main
+dist_list=dist_list, currency=args.currency)
+File "/usr/local/lib/python3.7/site-packages/kicost/kicost.py", line 119, in kicost
+p, info = eda_module.get_part_groups(in_file[i_prj], ignore_fields, variant[i_prj])
+File "/usr/local/lib/python3.7/site-packages/kicost/edas/eda_kicad.py", line 167, in get_part_groups
+libpart = str(libsource['lib']) + SEPRTR + str(libsource['part'])
+TypeError: 'NoneType' object is not subscriptable

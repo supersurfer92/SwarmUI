@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/calebcover/Documents/GitHub/ZooidSwarm_Baduk-Go-Weiqi_Fork/SKINNY_PROTOTYPE/BB_Hardware/PCB/BadukBot/BotSchematic/BotSchematic.sch</source>
-    <date>Thursday, November 01, 2018 at 08:17:30 PM</date>
+    <date>Friday, November 02, 2018 at 11:06:53 AM</date>
     <tool>Eeschema (5.0.0-3-g0214c9d)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -788,8 +788,8 @@
         <field name="Field6">None</field>
         <field name="Field7">Murata</field>
         <field name="Field8">Unavailable</field>
-        <field name="manf#">GRM188R61A106ME9D</field>
-        <field name="mnf#">GRM188R61A106ME9D</field>
+        <field name="manf#">GRM188R61A106ME69D</field>
+        <field name="mnf#">GRM188R61A106ME69D</field>
       </fields>
       <libsource lib="10uF" part="GRM188R61A106ME69D" description=""/>
       <sheetpath names="/" tstamps="/"/>
