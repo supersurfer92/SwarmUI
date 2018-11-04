@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ZRMicrocontroller-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/ZRMicrocontroller-SchDoc-rescue.lib)(options "")(descr ""))
+)
