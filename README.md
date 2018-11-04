@@ -9,8 +9,8 @@ Initial sketch of the redesigned Zooid, the BadukBot:
 ![Teaser](/Images/BadukBotSketch_0.0.1.JPG)
 
 And revision 3 of the new pcb
-![Teaser](/Images/Kicad_Board_Drawings/v3/Rev3Top.jpg)
-![Teaser](/Images/Kicad_Board_Drawings/v3/Rev3Bottom.jpg)
+![Teaser](/Images/Kicad_board_drawings/v3/Rev3Top.jpg)
+![Teaser](/Images/Kicad_board_drawings/v3/Rev3Bottom.jpg)
 
 BadukBot is based on Zooid software and hardware modified to play the game Go/Baduk/Weiqi. https://en.wikipedia.org/wiki/Go_(game)
 
