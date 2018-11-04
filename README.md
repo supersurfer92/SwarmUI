@@ -82,6 +82,7 @@ Resources and goals for features can be found at https://github.com/supersurfer9
 GoSwarm has rewritten the ZooidManager program from C++ to Java and is currently developing swarming functions
 
 ![Teaser](/Images/bowlswarmingtest.mov)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/S-AZOblyv-w/0.jpg)](https://youtu.be/S-AZOblyv-w "GoSwarm BadukBot playing behavior test")
 
 <p align="center">
 <img src="Images/local_control.PNG" alt="control" width="700">
