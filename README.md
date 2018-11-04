@@ -8,6 +8,10 @@ Zooids, an open-source open-hardware platform for developing tabletop swarm inte
 Initial sketch of the redesigned Zooid, the BadukBot:
 ![Teaser](/Images/BadukBotSketch_0.0.1.JPG)
 
+And revision 3 of the new pcb
+![Teaser](/Images/Kicad Board Drawings/v3/Rev3Top.png)
+![Teaser](/Images/Kicad Board Drawings/v3/Rev3Bottom.png)
+
 BadukBot is based on Zooid software and hardware modified to play the game Go/Baduk/Weiqi. https://en.wikipedia.org/wiki/Go_(game)
 
 Zooids in action: https://www.youtube.com/watch?time_continue=125&v=ZVdAfDMP3m0
