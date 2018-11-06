@@ -12,6 +12,7 @@ Revision 3 of the new pcb:
 ![Teaser](/Images/Kicad_board_drawings/v3/Rev3Top.jpg)
 ![Teaser](/Images/Kicad_board_drawings/v3/Rev3Bottom.jpg)
 Original board:
+
 ![Teaser](/Images/OG_boardTop.jpg)
 ![Teaser](/Images/OH_boardBottom.jpg)
 
