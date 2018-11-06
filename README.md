@@ -8,9 +8,12 @@ Zooids, an open-source open-hardware platform for developing tabletop swarm inte
 Initial sketch of the redesigned Zooid, the BadukBot:
 ![Teaser](/Images/BadukBotSketch_0.0.1.JPG)
 
-And revision 3 of the new pcb
-![Teaser](/Images/Kicad Board Drawings/v3/Rev3Top.jpg)
-![Teaser](/Images/Kicad Board Drawings/v3/Rev3Bottom.jpg)
+Revision 3 of the new pcb:
+![Teaser](/Images/Kicad_board_drawings/v3/Rev3Top.jpg)
+![Teaser](/Images/Kicad_board_drawings/v3/Rev3Bottom.jpg)
+Original board:
+![Teaser](/Images/OG_boardTop.jpg)
+![Teaser](/Images/OH_boardBottom.jpg)
 
 BadukBot is based on Zooid software and hardware modified to play the game Go/Baduk/Weiqi. https://en.wikipedia.org/wiki/Go_(game)
 
@@ -81,7 +84,7 @@ Resources and goals for features can be found at https://github.com/supersurfer9
 
 GoSwarm has rewritten the ZooidManager program from C++ to Java and is currently developing swarming functions
 
-![Teaser](/Images/bowlswarmingtest.mov)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/S-AZOblyv-w/0.jpg)](https://youtu.be/S-AZOblyv-w "GoSwarm BadukBot playing behavior test")
 
 <p align="center">
 <img src="Images/local_control.PNG" alt="control" width="700">
