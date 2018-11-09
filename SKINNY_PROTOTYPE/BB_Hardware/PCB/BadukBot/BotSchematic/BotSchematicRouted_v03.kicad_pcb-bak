@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 252)
+    (drawings 250)
     (tracks 2291)
     (zones 0)
-    (modules 89)
+    (modules 90)
     (nets 137)
   )
 
@@ -963,7 +963,7 @@
   )
 
   (module Silk:OpenHardwareLogo (layer B.Cu) (tedit 0) (tstamp 5BD905FB)
-    (at 85.06 104.38 90)
+    (at 77.54 105.19 90)
     (fp_text reference G2 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -2018,7 +2018,7 @@
   )
 
   (module Silk:BadukBot-GoSwarm (layer B.Cu) (tedit 0) (tstamp 5BD8FF9B)
-    (at 77.89 104.64 90)
+    (at 84.7 105.2 90)
     (fp_text reference G1 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -6637,7 +6637,7 @@
   )
 
   (module Silk:links_20mm (layer B.Cu) (tedit 5BDB4BE3) (tstamp 5BDB6498)
-    (at 83.66 110.14)
+    (at 83.58 111.75)
     (fp_text reference G5 (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -10513,6 +10513,19 @@
     (pad 2 smd circle (at 1.1 0 315) (size 1.524 1.524) (layers B.Cu B.Paste B.Mask))
   )
 
+  (module Connector_DIN:Conn_01x02_Female (layer B.Cu) (tedit 5BE0F528) (tstamp 5BE0F5E7)
+    (at 84.1 104.58 315)
+    (attr smd)
+    (fp_text reference P4 (at 0 -1.5 315) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Conn_01x02_Female (at 0 1.15 315) (layer B.SilkS) hide
+      (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+    )
+    (pad 1 smd circle (at -1.15 0 315) (size 1.524 1.524) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd circle (at 1.1 0 315) (size 1.524 1.524) (layers B.Cu B.Paste B.Mask))
+  )
+
   (gr_line (start 129.63 100.1) (end 129.63 115.5) (layer F.SilkS) (width 0.2) (tstamp 5BDED69C))
   (gr_line (start 144.17 100.09) (end 144.17 115.49) (layer F.SilkS) (width 0.2))
   (gr_line (start 140.35 100.51) (end 144.16 100.51) (layer F.SilkS) (width 0.2))
@@ -10520,10 +10533,10 @@
   (gr_line (start 137.45 100.08) (end 137.45 115.51) (layer B.SilkS) (width 0.2) (tstamp 5BDED35A))
   (gr_line (start 137.45 100.08) (end 141.84 100.08) (layer B.SilkS) (width 0.2) (tstamp 5BDED359))
   (gr_line (start 137.45 115.51) (end 141.84 115.51) (layer B.SilkS) (width 0.2) (tstamp 5BDED358))
-  (gr_line (start 110.97 115.43) (end 115.36 115.41) (layer B.SilkS) (width 0.2) (tstamp 5BDED31B))
-  (gr_line (start 110.97 99.94) (end 115.36 99.92) (layer B.SilkS) (width 0.2))
-  (gr_line (start 115.36 99.92) (end 115.36 115.41) (layer B.SilkS) (width 0.2) (tstamp 5BDED316))
-  (gr_line (start 110.97 99.94) (end 110.97 115.43) (layer B.SilkS) (width 0.2) (tstamp 5BDED314))
+  (gr_line (start 110.97 115.59) (end 115.36 115.59) (layer B.SilkS) (width 0.2) (tstamp 5BDED31B))
+  (gr_line (start 110.97 99.94) (end 115.36 99.94) (layer B.SilkS) (width 0.2))
+  (gr_line (start 115.36 99.94) (end 115.36 115.59) (layer B.SilkS) (width 0.2) (tstamp 5BDED316))
+  (gr_line (start 110.97 99.94) (end 110.97 115.59) (layer B.SilkS) (width 0.2) (tstamp 5BDED314))
   (gr_line (start 93.9 100.01) (end 93.9 115.5) (layer B.SilkS) (width 0.2) (tstamp 5BDED2DC))
   (gr_line (start 103.42 100.02) (end 103.42 115.51) (layer B.SilkS) (width 0.2) (tstamp 5BDED2DA))
   (gr_line (start 98.6 100) (end 98.6 115.49) (layer B.SilkS) (width 0.2) (tstamp 5BDED2D7))
@@ -10534,8 +10547,6 @@
   (gr_line (start 93.9 111.78) (end 93.9 112.96) (layer F.SilkS) (width 0.2))
   (gr_line (start 93.9 100) (end 93.9 111.78) (layer F.SilkS) (width 0.2))
   (gr_line (start 87.39 114.79) (end 87.85 113.75) (layer F.SilkS) (width 0.2))
-  (gr_circle (center 78.06 104.79) (end 78.05 105.51) (layer B.SilkS) (width 0.2) (tstamp 5BDEBEA7))
-  (gr_circle (center 76.48 103.22) (end 76.47 103.94) (layer B.SilkS) (width 0.2))
   (gr_line (start 120.23 115.02) (end 119.97 115.02) (layer F.SilkS) (width 0.2))
   (gr_line (start 120.23 114.56) (end 120.23 115.02) (layer F.SilkS) (width 0.2))
   (gr_line (start 120.24 111.51) (end 120.24 111.8) (layer F.SilkS) (width 0.2))
