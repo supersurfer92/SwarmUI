@@ -9,8 +9,8 @@ Initial sketch of the redesigned Zooid, the BadukBot:
 ![Teaser](/Images/BadukBotSketch_0.0.1.JPG)
 
 Revision 3 of the new pcb:
-![Teaser](/Images/Kicad_board_drawings/v3/Rev3Top.jpg)
-![Teaser](/Images/Kicad_board_drawings/v3/Rev3Bottom.jpg)
+![Teaser](/Images/Rv3_proto.jpg)
+
 Original board:
 
 ![Teaser](/Images/OG_boardTop.jpg)
